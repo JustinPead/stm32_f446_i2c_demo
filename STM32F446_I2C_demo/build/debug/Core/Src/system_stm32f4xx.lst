@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
   28:Core/Src/system_stm32f4xx.c ****   * This software is licensed under terms that can be found in the LICENSE file
   29:Core/Src/system_stm32f4xx.c ****   * in the root directory of this software component.
   30:Core/Src/system_stm32f4xx.c ****   * If no LICENSE file comes with this software, it is provided AS-IS.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 2
 
 
   31:Core/Src/system_stm32f4xx.c ****   *
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
   85:Core/Src/system_stm32f4xx.c **** /* #define DATA_IN_ExtSDRAM */
   86:Core/Src/system_stm32f4xx.c **** #endif /* STM32F427xx || STM32F437xx || STM32F429xx || STM32F439xx || STM32F446xx || STM32F469xx ||
   87:Core/Src/system_stm32f4xx.c ****           STM32F479xx */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 3
 
 
   88:Core/Src/system_stm32f4xx.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
  142:Core/Src/system_stm32f4xx.c ****   */
  143:Core/Src/system_stm32f4xx.c **** 
  144:Core/Src/system_stm32f4xx.c **** /** @addtogroup STM32F4xx_System_Private_FunctionPrototypes
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 4
 
 
  145:Core/Src/system_stm32f4xx.c ****   * @{
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
   45              	.L2:
   46 0010 00ED00E0 		.word	-536810240
   47              		.cfi_endproc
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 5
 
 
   48              	.LFE130:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
   64              		.loc 1 222 3 view .LVU6
   65              	.LVL0:
  223:Core/Src/system_stm32f4xx.c ****   
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 6
 
 
  224:Core/Src/system_stm32f4xx.c ****   /* Get SYSCLK source -------------------------------------------------------*/
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
   85 0016 1A60     		str	r2, [r3]
  259:Core/Src/system_stm32f4xx.c ****       break;
   86              		.loc 1 259 7 is_stmt 1 view .LVU14
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 7
 
 
   87 0018 02E0     		b	.L8
@@ -413,12 +413,12 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
  123              	.LVL8:
  233:Core/Src/system_stm32f4xx.c ****       break;
  124              		.loc 1 233 23 view .LVU28
- 125 0038 164A     		ldr	r2, .L12+8
+ 125 0038 184A     		ldr	r2, .L12+16
  126 003a 1A60     		str	r2, [r3]
  234:Core/Src/system_stm32f4xx.c ****     case 0x08:  /* PLL used as system clock source */
  127              		.loc 1 234 7 is_stmt 1 view .LVU29
  128 003c F0E7     		b	.L8
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 8
 
 
  129              	.LVL9:
@@ -452,7 +452,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
  148              		.loc 1 246 9 is_stmt 1 view .LVU38
  246:Core/Src/system_stm32f4xx.c ****       }
  149              		.loc 1 246 29 is_stmt 0 view .LVU39
- 150 004e 114B     		ldr	r3, .L12+8
+ 150 004e 134B     		ldr	r3, .L12+16
  151 0050 B3FBF2F3 		udiv	r3, r3, r2
  246:Core/Src/system_stm32f4xx.c ****       }
  152              		.loc 1 246 44 view .LVU40
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
  254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
  167              		.loc 1 254 50 view .LVU46
  168 0064 C2F30142 		ubfx	r2, r2, #16, #2
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 9
 
 
  254:Core/Src/system_stm32f4xx.c ****       SystemCoreClock = pllvco/pllp;
@@ -536,54 +536,55 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 1
  207 0090 00000000 		.word	SystemCoreClock
  208 0094 0024F400 		.word	16000000
  209 0098 00000000 		.word	AHBPrescTable
- 210              		.cfi_endproc
- 211              	.LFE131:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 10
+ 210 009c 00127A00 		.word	8000000
+ 211              		.cfi_endproc
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 10
 
 
- 213              		.global	APBPrescTable
- 214              		.section	.rodata.APBPrescTable,"a"
- 215              		.align	2
- 218              	APBPrescTable:
- 219 0000 00000000 		.ascii	"\000\000\000\000\001\002\003\004"
- 219      01020304 
- 220              		.global	AHBPrescTable
- 221              		.section	.rodata.AHBPrescTable,"a"
- 222              		.align	2
- 225              	AHBPrescTable:
- 226 0000 00000000 		.ascii	"\000\000\000\000\000\000\000\000\001\002\003\004\006"
- 226      00000000 
- 226      01020304 
- 226      06
- 227 000d 070809   		.ascii	"\007\010\011"
- 228              		.global	SystemCoreClock
- 229              		.section	.data.SystemCoreClock,"aw"
- 230              		.align	2
- 233              	SystemCoreClock:
- 234 0000 0024F400 		.word	16000000
- 235              		.text
- 236              	.Letext0:
- 237              		.file 2 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
- 238              		.file 3 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
- 239              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
- 240              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
- 241              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s 			page 11
+ 212              	.LFE131:
+ 214              		.global	APBPrescTable
+ 215              		.section	.rodata.APBPrescTable,"a"
+ 216              		.align	2
+ 219              	APBPrescTable:
+ 220 0000 00000000 		.ascii	"\000\000\000\000\001\002\003\004"
+ 220      01020304 
+ 221              		.global	AHBPrescTable
+ 222              		.section	.rodata.AHBPrescTable,"a"
+ 223              		.align	2
+ 226              	AHBPrescTable:
+ 227 0000 00000000 		.ascii	"\000\000\000\000\000\000\000\000\001\002\003\004\006"
+ 227      00000000 
+ 227      01020304 
+ 227      06
+ 228 000d 070809   		.ascii	"\007\010\011"
+ 229              		.global	SystemCoreClock
+ 230              		.section	.data.SystemCoreClock,"aw"
+ 231              		.align	2
+ 234              	SystemCoreClock:
+ 235 0000 0024F400 		.word	16000000
+ 236              		.text
+ 237              	.Letext0:
+ 238              		.file 2 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 239              		.file 3 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 240              		.file 4 "Drivers/CMSIS/Include/core_cm4.h"
+ 241              		.file 5 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h"
+ 242              		.file 6 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h"
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s 			page 11
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32f4xx.c
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:21     .text.SystemInit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:27     .text.SystemInit:00000000 SystemInit
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:46     .text.SystemInit:00000010 $d
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:51     .text.SystemCoreClockUpdate:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:57     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:206    .text.SystemCoreClockUpdate:0000008c $d
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:233    .data.SystemCoreClock:00000000 SystemCoreClock
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:225    .rodata.AHBPrescTable:00000000 AHBPrescTable
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:218    .rodata.APBPrescTable:00000000 APBPrescTable
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:215    .rodata.APBPrescTable:00000000 $d
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:222    .rodata.AHBPrescTable:00000000 $d
-C:\Users\justi\AppData\Local\Temp\ccoLvMEz.s:230    .data.SystemCoreClock:00000000 $d
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:21     .text.SystemInit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:27     .text.SystemInit:00000000 SystemInit
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:46     .text.SystemInit:00000010 $d
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:51     .text.SystemCoreClockUpdate:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:57     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:206    .text.SystemCoreClockUpdate:0000008c $d
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:234    .data.SystemCoreClock:00000000 SystemCoreClock
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:226    .rodata.AHBPrescTable:00000000 AHBPrescTable
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:219    .rodata.APBPrescTable:00000000 APBPrescTable
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:216    .rodata.APBPrescTable:00000000 $d
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:223    .rodata.AHBPrescTable:00000000 $d
+C:\Users\justi\AppData\Local\Temp\ccQ0I3aA.s:231    .data.SystemCoreClock:00000000 $d
 
 NO UNDEFINED SYMBOLS

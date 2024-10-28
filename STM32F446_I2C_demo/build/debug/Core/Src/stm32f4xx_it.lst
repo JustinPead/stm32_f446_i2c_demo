@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
   28:Core/Src/stm32f4xx_it.c **** /* USER CODE BEGIN TD */
   29:Core/Src/stm32f4xx_it.c **** 
   30:Core/Src/stm32f4xx_it.c **** /* USER CODE END TD */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 2
 
 
   31:Core/Src/stm32f4xx_it.c **** 
@@ -88,7 +88,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
   55:Core/Src/stm32f4xx_it.c **** /* USER CODE END 0 */
   56:Core/Src/stm32f4xx_it.c **** 
   57:Core/Src/stm32f4xx_it.c **** /* External variables --------------------------------------------------------*/
-  58:Core/Src/stm32f4xx_it.c **** 
+  58:Core/Src/stm32f4xx_it.c **** extern UART_HandleTypeDef huart5;
   59:Core/Src/stm32f4xx_it.c **** /* USER CODE BEGIN EV */
   60:Core/Src/stm32f4xx_it.c **** 
   61:Core/Src/stm32f4xx_it.c **** /* USER CODE END EV */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
   77:Core/Src/stm32f4xx_it.c ****   }
   37              		.loc 1 77 3 discriminator 1 view .LVU2
   75:Core/Src/stm32f4xx_it.c ****   {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 3
 
 
   38              		.loc 1 75 9 discriminator 1 view .LVU3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
   98:Core/Src/stm32f4xx_it.c ****   */
   99:Core/Src/stm32f4xx_it.c **** void MemManage_Handler(void)
  100:Core/Src/stm32f4xx_it.c **** {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 4
 
 
   75              		.loc 1 100 1 view -0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
  119:Core/Src/stm32f4xx_it.c ****   {
  107              		.loc 1 119 9 discriminator 1 view .LVU15
  108 0000 FEE7     		b	.L8
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 5
 
 
  109              		.cfi_endproc
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
  144              		.loc 1 145 1 view -0
  145              		.cfi_startproc
  146              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 6
 
 
  147              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
  169:Core/Src/stm32f4xx_it.c ****   */
  170:Core/Src/stm32f4xx_it.c **** void PendSV_Handler(void)
  171:Core/Src/stm32f4xx_it.c **** {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 7
 
 
  182              		.loc 1 171 1 view -0
@@ -414,32 +414,95 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 1
  213 0006 08BD     		pop	{r3, pc}
  214              		.cfi_endproc
  215              	.LFE138:
- 217              		.text
- 218              	.Letext0:
- 219              		.file 2 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s 			page 8
+ 217              		.section	.text.UART5_IRQHandler,"ax",%progbits
+ 218              		.align	1
+ 219              		.global	UART5_IRQHandler
+ 220              		.syntax unified
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 8
+
+
+ 221              		.thumb
+ 222              		.thumb_func
+ 224              	UART5_IRQHandler:
+ 225              	.LFB139:
+ 193:Core/Src/stm32f4xx_it.c **** 
+ 194:Core/Src/stm32f4xx_it.c **** /******************************************************************************/
+ 195:Core/Src/stm32f4xx_it.c **** /* STM32F4xx Peripheral Interrupt Handlers                                    */
+ 196:Core/Src/stm32f4xx_it.c **** /* Add here the Interrupt Handlers for the used peripherals.                  */
+ 197:Core/Src/stm32f4xx_it.c **** /* For the available peripheral interrupt handler names,                      */
+ 198:Core/Src/stm32f4xx_it.c **** /* please refer to the startup file (startup_stm32f4xx.s).                    */
+ 199:Core/Src/stm32f4xx_it.c **** /******************************************************************************/
+ 200:Core/Src/stm32f4xx_it.c **** 
+ 201:Core/Src/stm32f4xx_it.c **** /**
+ 202:Core/Src/stm32f4xx_it.c ****   * @brief This function handles UART5 global interrupt.
+ 203:Core/Src/stm32f4xx_it.c ****   */
+ 204:Core/Src/stm32f4xx_it.c **** void UART5_IRQHandler(void)
+ 205:Core/Src/stm32f4xx_it.c **** {
+ 226              		.loc 1 205 1 is_stmt 1 view -0
+ 227              		.cfi_startproc
+ 228              		@ args = 0, pretend = 0, frame = 0
+ 229              		@ frame_needed = 0, uses_anonymous_args = 0
+ 230 0000 08B5     		push	{r3, lr}
+ 231              		.cfi_def_cfa_offset 8
+ 232              		.cfi_offset 3, -8
+ 233              		.cfi_offset 14, -4
+ 206:Core/Src/stm32f4xx_it.c ****   /* USER CODE BEGIN UART5_IRQn 0 */
+ 207:Core/Src/stm32f4xx_it.c **** 
+ 208:Core/Src/stm32f4xx_it.c ****   /* USER CODE END UART5_IRQn 0 */
+ 209:Core/Src/stm32f4xx_it.c ****   HAL_UART_IRQHandler(&huart5);
+ 234              		.loc 1 209 3 view .LVU30
+ 235 0002 0248     		ldr	r0, .L18
+ 236 0004 FFF7FEFF 		bl	HAL_UART_IRQHandler
+ 237              	.LVL1:
+ 210:Core/Src/stm32f4xx_it.c ****   /* USER CODE BEGIN UART5_IRQn 1 */
+ 211:Core/Src/stm32f4xx_it.c **** 
+ 212:Core/Src/stm32f4xx_it.c ****   /* USER CODE END UART5_IRQn 1 */
+ 213:Core/Src/stm32f4xx_it.c **** }
+ 238              		.loc 1 213 1 is_stmt 0 view .LVU31
+ 239 0008 08BD     		pop	{r3, pc}
+ 240              	.L19:
+ 241 000a 00BF     		.align	2
+ 242              	.L18:
+ 243 000c 00000000 		.word	huart5
+ 244              		.cfi_endproc
+ 245              	.LFE139:
+ 247              		.text
+ 248              	.Letext0:
+ 249              		.file 2 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 250              		.file 3 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+ 251              		.file 4 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f446xx.h"
+ 252              		.file 5 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h"
+ 253              		.file 6 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h"
+ 254              		.file 7 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h"
+ 255              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h"
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s 			page 9
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_it.c
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:21     .text.NMI_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:27     .text.NMI_Handler:00000000 NMI_Handler
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:44     .text.HardFault_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:50     .text.HardFault_Handler:00000000 HardFault_Handler
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:67     .text.MemManage_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:73     .text.MemManage_Handler:00000000 MemManage_Handler
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:90     .text.BusFault_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:96     .text.BusFault_Handler:00000000 BusFault_Handler
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:113    .text.UsageFault_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:119    .text.UsageFault_Handler:00000000 UsageFault_Handler
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:136    .text.SVC_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:142    .text.SVC_Handler:00000000 SVC_Handler
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:155    .text.DebugMon_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:161    .text.DebugMon_Handler:00000000 DebugMon_Handler
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:174    .text.PendSV_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:180    .text.PendSV_Handler:00000000 PendSV_Handler
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:193    .text.SysTick_Handler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccV6GHMj.s:199    .text.SysTick_Handler:00000000 SysTick_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:21     .text.NMI_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:27     .text.NMI_Handler:00000000 NMI_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:44     .text.HardFault_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:50     .text.HardFault_Handler:00000000 HardFault_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:67     .text.MemManage_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:73     .text.MemManage_Handler:00000000 MemManage_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:90     .text.BusFault_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:96     .text.BusFault_Handler:00000000 BusFault_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:113    .text.UsageFault_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:119    .text.UsageFault_Handler:00000000 UsageFault_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:136    .text.SVC_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:142    .text.SVC_Handler:00000000 SVC_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:155    .text.DebugMon_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:161    .text.DebugMon_Handler:00000000 DebugMon_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:174    .text.PendSV_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:180    .text.PendSV_Handler:00000000 PendSV_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:193    .text.SysTick_Handler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:199    .text.SysTick_Handler:00000000 SysTick_Handler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:218    .text.UART5_IRQHandler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:224    .text.UART5_IRQHandler:00000000 UART5_IRQHandler
+C:\Users\justi\AppData\Local\Temp\ccSB8IPx.s:243    .text.UART5_IRQHandler:0000000c $d
 
 UNDEFINED SYMBOLS
 HAL_IncTick
+HAL_UART_IRQHandler
+huart5
