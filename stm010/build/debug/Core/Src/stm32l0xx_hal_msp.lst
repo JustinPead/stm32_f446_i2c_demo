@@ -1,0 +1,152 @@
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 1
+
+
+   1              		.cpu cortex-m0plus
+   2              		.arch armv6s-m
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 0
+  12              		.eabi_attribute 18, 4
+  13              		.file	"stm32l0xx_hal_msp.c"
+  14              		.text
+  15              	.Ltext0:
+  16              		.cfi_sections	.debug_frame
+  17              		.file 1 "Core/Src/stm32l0xx_hal_msp.c"
+  18              		.section	.text.HAL_MspInit,"ax",%progbits
+  19              		.align	1
+  20              		.global	HAL_MspInit
+  21              		.syntax unified
+  22              		.code	16
+  23              		.thumb_func
+  25              	HAL_MspInit:
+  26              	.LFB40:
+   1:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN Header */
+   2:Core/Src/stm32l0xx_hal_msp.c **** /**
+   3:Core/Src/stm32l0xx_hal_msp.c ****   ******************************************************************************
+   4:Core/Src/stm32l0xx_hal_msp.c ****   * @file         stm32l0xx_hal_msp.c
+   5:Core/Src/stm32l0xx_hal_msp.c ****   * @brief        This file provides code for the MSP Initialization
+   6:Core/Src/stm32l0xx_hal_msp.c ****   *               and de-Initialization codes.
+   7:Core/Src/stm32l0xx_hal_msp.c ****   ******************************************************************************
+   8:Core/Src/stm32l0xx_hal_msp.c ****   * @attention
+   9:Core/Src/stm32l0xx_hal_msp.c ****   *
+  10:Core/Src/stm32l0xx_hal_msp.c ****   * Copyright (c) 2024 STMicroelectronics.
+  11:Core/Src/stm32l0xx_hal_msp.c ****   * All rights reserved.
+  12:Core/Src/stm32l0xx_hal_msp.c ****   *
+  13:Core/Src/stm32l0xx_hal_msp.c ****   * This software is licensed under terms that can be found in the LICENSE file
+  14:Core/Src/stm32l0xx_hal_msp.c ****   * in the root directory of this software component.
+  15:Core/Src/stm32l0xx_hal_msp.c ****   * If no LICENSE file comes with this software, it is provided AS-IS.
+  16:Core/Src/stm32l0xx_hal_msp.c ****   *
+  17:Core/Src/stm32l0xx_hal_msp.c ****   ******************************************************************************
+  18:Core/Src/stm32l0xx_hal_msp.c ****   */
+  19:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END Header */
+  20:Core/Src/stm32l0xx_hal_msp.c **** 
+  21:Core/Src/stm32l0xx_hal_msp.c **** /* Includes ------------------------------------------------------------------*/
+  22:Core/Src/stm32l0xx_hal_msp.c **** #include "main.h"
+  23:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN Includes */
+  24:Core/Src/stm32l0xx_hal_msp.c **** 
+  25:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END Includes */
+  26:Core/Src/stm32l0xx_hal_msp.c **** 
+  27:Core/Src/stm32l0xx_hal_msp.c **** /* Private typedef -----------------------------------------------------------*/
+  28:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN TD */
+  29:Core/Src/stm32l0xx_hal_msp.c **** 
+  30:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END TD */
+  31:Core/Src/stm32l0xx_hal_msp.c **** 
+  32:Core/Src/stm32l0xx_hal_msp.c **** /* Private define ------------------------------------------------------------*/
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 2
+
+
+  33:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN Define */
+  34:Core/Src/stm32l0xx_hal_msp.c **** 
+  35:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END Define */
+  36:Core/Src/stm32l0xx_hal_msp.c **** 
+  37:Core/Src/stm32l0xx_hal_msp.c **** /* Private macro -------------------------------------------------------------*/
+  38:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN Macro */
+  39:Core/Src/stm32l0xx_hal_msp.c **** 
+  40:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END Macro */
+  41:Core/Src/stm32l0xx_hal_msp.c **** 
+  42:Core/Src/stm32l0xx_hal_msp.c **** /* Private variables ---------------------------------------------------------*/
+  43:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN PV */
+  44:Core/Src/stm32l0xx_hal_msp.c **** 
+  45:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END PV */
+  46:Core/Src/stm32l0xx_hal_msp.c **** 
+  47:Core/Src/stm32l0xx_hal_msp.c **** /* Private function prototypes -----------------------------------------------*/
+  48:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN PFP */
+  49:Core/Src/stm32l0xx_hal_msp.c **** 
+  50:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END PFP */
+  51:Core/Src/stm32l0xx_hal_msp.c **** 
+  52:Core/Src/stm32l0xx_hal_msp.c **** /* External functions --------------------------------------------------------*/
+  53:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN ExternalFunctions */
+  54:Core/Src/stm32l0xx_hal_msp.c **** 
+  55:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END ExternalFunctions */
+  56:Core/Src/stm32l0xx_hal_msp.c **** 
+  57:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN 0 */
+  58:Core/Src/stm32l0xx_hal_msp.c **** 
+  59:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END 0 */
+  60:Core/Src/stm32l0xx_hal_msp.c **** /**
+  61:Core/Src/stm32l0xx_hal_msp.c ****   * Initializes the Global MSP.
+  62:Core/Src/stm32l0xx_hal_msp.c ****   */
+  63:Core/Src/stm32l0xx_hal_msp.c **** void HAL_MspInit(void)
+  64:Core/Src/stm32l0xx_hal_msp.c **** {
+  27              		.loc 1 64 1 view -0
+  28              		.cfi_startproc
+  29              		@ args = 0, pretend = 0, frame = 0
+  30              		@ frame_needed = 0, uses_anonymous_args = 0
+  31              		@ link register save eliminated.
+  65:Core/Src/stm32l0xx_hal_msp.c ****   /* USER CODE BEGIN MspInit 0 */
+  66:Core/Src/stm32l0xx_hal_msp.c **** 
+  67:Core/Src/stm32l0xx_hal_msp.c ****   /* USER CODE END MspInit 0 */
+  68:Core/Src/stm32l0xx_hal_msp.c **** 
+  69:Core/Src/stm32l0xx_hal_msp.c ****   __HAL_RCC_SYSCFG_CLK_ENABLE();
+  32              		.loc 1 69 3 view .LVU1
+  33 0000 054B     		ldr	r3, .L2
+  34 0002 5A6B     		ldr	r2, [r3, #52]
+  35 0004 0121     		movs	r1, #1
+  36 0006 0A43     		orrs	r2, r1
+  37 0008 5A63     		str	r2, [r3, #52]
+  70:Core/Src/stm32l0xx_hal_msp.c ****   __HAL_RCC_PWR_CLK_ENABLE();
+  38              		.loc 1 70 3 view .LVU2
+  39 000a 996B     		ldr	r1, [r3, #56]
+  40 000c 8022     		movs	r2, #128
+  41 000e 5205     		lsls	r2, r2, #21
+  42 0010 0A43     		orrs	r2, r1
+  43 0012 9A63     		str	r2, [r3, #56]
+  71:Core/Src/stm32l0xx_hal_msp.c **** 
+  72:Core/Src/stm32l0xx_hal_msp.c ****   /* System interrupt init*/
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 3
+
+
+  73:Core/Src/stm32l0xx_hal_msp.c **** 
+  74:Core/Src/stm32l0xx_hal_msp.c ****   /* USER CODE BEGIN MspInit 1 */
+  75:Core/Src/stm32l0xx_hal_msp.c **** 
+  76:Core/Src/stm32l0xx_hal_msp.c ****   /* USER CODE END MspInit 1 */
+  77:Core/Src/stm32l0xx_hal_msp.c **** }
+  44              		.loc 1 77 1 is_stmt 0 view .LVU3
+  45              		@ sp needed
+  46 0014 7047     		bx	lr
+  47              	.L3:
+  48 0016 C046     		.align	2
+  49              	.L2:
+  50 0018 00100240 		.word	1073876992
+  51              		.cfi_endproc
+  52              	.LFE40:
+  54              		.text
+  55              	.Letext0:
+  56              		.file 2 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+  57              		.file 3 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
+  58              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l010x4.h"
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 4
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 stm32l0xx_hal_msp.c
+C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s:19     .text.HAL_MspInit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s:25     .text.HAL_MspInit:00000000 HAL_MspInit
+C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s:50     .text.HAL_MspInit:00000018 $d
+
+NO UNDEFINED SYMBOLS
