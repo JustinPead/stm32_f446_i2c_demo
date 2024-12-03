@@ -61,6 +61,8 @@ void Error_Handler(void);
 #define LCD_RS_GPIO_Port GPIOC
 #define LCD_E_Pin GPIO_PIN_15
 #define LCD_E_GPIO_Port GPIOC
+#define SPI2_NSS_Pin GPIO_PIN_3
+#define SPI2_NSS_GPIO_Port GPIOC
 #define PUSH0_Pin GPIO_PIN_0
 #define PUSH0_GPIO_Port GPIOA
 #define PUSH1_Pin GPIO_PIN_1

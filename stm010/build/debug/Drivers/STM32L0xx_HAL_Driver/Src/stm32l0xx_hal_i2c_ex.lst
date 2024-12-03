@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
   29:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****        devices contains the following additional features
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** 
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****        (+) Possibility to disable or enable Analog Noise Filter
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 2
 
 
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****        (+) Use of a configured Digital Noise Filter
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
   86:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****   * @{
   87:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****   */
   88:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 3
 
 
   89:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** /**
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
   63 001a 2423     		movs	r3, #36
   64 001c 4355     		strb	r3, [r0, r5]
  108:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 4
 
 
  109:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****     /* Disable the selected I2C peripheral */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  125:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****     return HAL_OK;
  103              		.loc 1 125 5 discriminator 2 view .LVU29
  104              		.loc 1 125 12 is_stmt 0 discriminator 2 view .LVU30
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 5
 
 
  105 0048 0020     		movs	r0, #0
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  141:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** {
  142              		.loc 1 141 1 is_stmt 1 view -0
  143              		.cfi_startproc
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 6
 
 
  144              		@ args = 0, pretend = 0, frame = 0
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  183 0022 9343     		bics	r3, r2
  184 0024 3360     		str	r3, [r6]
  157:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 7
 
 
  158:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****     /* Get the old register value */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  221 0042 0355     		strb	r3, [r0, r4]
  222              		.loc 1 175 5 discriminator 2 view .LVU67
  176:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 8
 
 
  177:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****     return HAL_OK;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  190:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****   *
  191:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** @verbatim
  192:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****  ===============================================================================
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 9
 
 
  193:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****                       ##### WakeUp Mode Functions #####
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  217:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** 
  218:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****     hi2c->State = HAL_I2C_STATE_BUSY;
  292              		.loc 1 218 5 discriminator 2 view .LVU85
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 10
 
 
  293              		.loc 1 218 17 is_stmt 0 discriminator 2 view .LVU86
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  235:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****   else
  236:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****   {
  237:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****     return HAL_BUSY;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 11
 
 
  238:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****   }
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  249:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****   /* Check the parameters */
  250:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c ****   assert_param(IS_I2C_WAKEUP_FROMSTOP_INSTANCE(hi2c->Instance));
  372              		.loc 1 250 3 is_stmt 1 view .LVU107
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 12
 
 
  251:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  412 0032 2B68     		ldr	r3, [r5]
  413 0034 1343     		orrs	r3, r2
  414 0036 2B60     		str	r3, [r5]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 13
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 13
 
 
  266:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  453              		.text
  454              	.Letext0:
  455              		.file 2 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 14
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 14
 
 
  456              		.file 3 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
@@ -786,21 +786,21 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 1
  458              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
  459              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h"
  460              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_i2c.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s 			page 15
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s 			page 15
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_i2c_ex.c
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:19     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:25     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 HAL_I2CEx_ConfigAnalogFilter
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:128    .text.HAL_I2CEx_ConfigAnalogFilter:00000054 $d
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:133    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:139    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 HAL_I2CEx_ConfigDigitalFilter
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:248    .text.HAL_I2CEx_ConfigDigitalFilter:00000050 $d
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:253    .text.HAL_I2CEx_EnableWakeUp:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:259    .text.HAL_I2CEx_EnableWakeUp:00000000 HAL_I2CEx_EnableWakeUp
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:352    .text.HAL_I2CEx_DisableWakeUp:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:358    .text.HAL_I2CEx_DisableWakeUp:00000000 HAL_I2CEx_DisableWakeUp
-C:\Users\justi\AppData\Local\Temp\ccQTc0ND.s:449    .text.HAL_I2CEx_DisableWakeUp:0000004c $d
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:19     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:25     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 HAL_I2CEx_ConfigAnalogFilter
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:128    .text.HAL_I2CEx_ConfigAnalogFilter:00000054 $d
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:133    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:139    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 HAL_I2CEx_ConfigDigitalFilter
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:248    .text.HAL_I2CEx_ConfigDigitalFilter:00000050 $d
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:253    .text.HAL_I2CEx_EnableWakeUp:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:259    .text.HAL_I2CEx_EnableWakeUp:00000000 HAL_I2CEx_EnableWakeUp
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:352    .text.HAL_I2CEx_DisableWakeUp:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:358    .text.HAL_I2CEx_DisableWakeUp:00000000 HAL_I2CEx_DisableWakeUp
+C:\Users\justi\AppData\Local\Temp\ccz05Ubf.s:449    .text.HAL_I2CEx_DisableWakeUp:0000004c $d
 
 NO UNDEFINED SYMBOLS

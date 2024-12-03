@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
   27:Drivers/CMSIS/Include/core_cm4.h **** #elif defined (__clang__)
   28:Drivers/CMSIS/Include/core_cm4.h ****   #pragma clang system_header   /* treat file as system include file */
   29:Drivers/CMSIS/Include/core_cm4.h **** #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 2
 
 
   30:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
   84:Drivers/CMSIS/Include/core_cm4.h ****   #else
   85:Drivers/CMSIS/Include/core_cm4.h ****     #define __FPU_USED         0U
   86:Drivers/CMSIS/Include/core_cm4.h ****   #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 3
 
 
   87:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  141:Drivers/CMSIS/Include/core_cm4.h ****       #error "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)
  142:Drivers/CMSIS/Include/core_cm4.h ****       #define __FPU_USED       0U
  143:Drivers/CMSIS/Include/core_cm4.h ****     #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 4
 
 
  144:Drivers/CMSIS/Include/core_cm4.h ****   #else
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  198:Drivers/CMSIS/Include/core_cm4.h ****     #define __NVIC_PRIO_BITS          3U
  199:Drivers/CMSIS/Include/core_cm4.h ****     #warning "__NVIC_PRIO_BITS not defined in device header file; using default!"
  200:Drivers/CMSIS/Include/core_cm4.h ****   #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 5
 
 
  201:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  255:Drivers/CMSIS/Include/core_cm4.h **** 
  256:Drivers/CMSIS/Include/core_cm4.h **** /**
  257:Drivers/CMSIS/Include/core_cm4.h ****   \brief  Union type to access the Application Program Status Register (APSR).
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 6
 
 
  258:Drivers/CMSIS/Include/core_cm4.h ****  */
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  312:Drivers/CMSIS/Include/core_cm4.h **** 
  313:Drivers/CMSIS/Include/core_cm4.h **** /**
  314:Drivers/CMSIS/Include/core_cm4.h ****   \brief  Union type to access the Special-Purpose Program Status Registers (xPSR).
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 7
 
 
  315:Drivers/CMSIS/Include/core_cm4.h ****  */
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  369:Drivers/CMSIS/Include/core_cm4.h ****   \brief  Union type to access the Control Registers (CONTROL).
  370:Drivers/CMSIS/Include/core_cm4.h ****  */
  371:Drivers/CMSIS/Include/core_cm4.h **** typedef union
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 8
 
 
  372:Drivers/CMSIS/Include/core_cm4.h **** {
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  426:Drivers/CMSIS/Include/core_cm4.h **** 
  427:Drivers/CMSIS/Include/core_cm4.h **** /*@} end of group CMSIS_NVIC */
  428:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 9
 
 
  429:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  483:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_ICSR_NMIPENDSET_Msk            (1UL << SCB_ICSR_NMIPENDSET_Pos)               /*!< SCB 
  484:Drivers/CMSIS/Include/core_cm4.h **** 
  485:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_ICSR_PENDSVSET_Pos             28U                                            /*!< SCB 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 10
 
 
  486:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_ICSR_PENDSVSET_Msk             (1UL << SCB_ICSR_PENDSVSET_Pos)                /*!< SCB 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  540:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SCR_SEVONPEND_Msk              (1UL << SCB_SCR_SEVONPEND_Pos)                 /*!< SCB 
  541:Drivers/CMSIS/Include/core_cm4.h **** 
  542:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SCR_SLEEPDEEP_Pos               2U                                            /*!< SCB 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 11
 
 
  543:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SCR_SLEEPDEEP_Msk              (1UL << SCB_SCR_SLEEPDEEP_Pos)                 /*!< SCB 
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  597:Drivers/CMSIS/Include/core_cm4.h **** 
  598:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SHCSR_SVCALLACT_Pos             7U                                            /*!< SCB 
  599:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_SHCSR_SVCALLACT_Msk            (1UL << SCB_SHCSR_SVCALLACT_Pos)               /*!< SCB 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 12
 
 
  600:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  654:Drivers/CMSIS/Include/core_cm4.h **** 
  655:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CFSR_PRECISERR_Pos            (SCB_CFSR_BUSFAULTSR_Pos + 1U)                  /*!< SCB 
  656:Drivers/CMSIS/Include/core_cm4.h **** #define SCB_CFSR_PRECISERR_Msk            (1UL << SCB_CFSR_PRECISERR_Pos)                 /*!< SCB 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 13
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 13
 
 
  657:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  711:Drivers/CMSIS/Include/core_cm4.h ****   \defgroup CMSIS_SCnSCB System Controls not in SCB (SCnSCB)
  712:Drivers/CMSIS/Include/core_cm4.h ****   \brief    Type definitions for the System Control and ID Register not in the SCB
  713:Drivers/CMSIS/Include/core_cm4.h ****   @{
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 14
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 14
 
 
  714:Drivers/CMSIS/Include/core_cm4.h ****  */
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  768:Drivers/CMSIS/Include/core_cm4.h **** #define SysTick_CTRL_COUNTFLAG_Pos         16U                                            /*!< SysT
  769:Drivers/CMSIS/Include/core_cm4.h **** #define SysTick_CTRL_COUNTFLAG_Msk         (1UL << SysTick_CTRL_COUNTFLAG_Pos)            /*!< SysT
  770:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 15
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 15
 
 
  771:Drivers/CMSIS/Include/core_cm4.h **** #define SysTick_CTRL_CLKSOURCE_Pos          2U                                            /*!< SysT
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  825:Drivers/CMSIS/Include/core_cm4.h ****         uint32_t RESERVED3[29U];
  826:Drivers/CMSIS/Include/core_cm4.h ****   __OM  uint32_t IWR;                    /*!< Offset: 0xEF8 ( /W)  ITM Integration Write Register *
  827:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t IRR;                    /*!< Offset: 0xEFC (R/ )  ITM Integration Read Register */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 16
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 16
 
 
  828:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t IMCR;                   /*!< Offset: 0xF00 (R/W)  ITM Integration Mode Control Reg
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  882:Drivers/CMSIS/Include/core_cm4.h **** 
  883:Drivers/CMSIS/Include/core_cm4.h **** /* ITM Integration Read Register Definitions */
  884:Drivers/CMSIS/Include/core_cm4.h **** #define ITM_IRR_ATREADYM_Pos                0U                                            /*!< ITM 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 17
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 17
 
 
  885:Drivers/CMSIS/Include/core_cm4.h **** #define ITM_IRR_ATREADYM_Msk               (1UL /*<< ITM_IRR_ATREADYM_Pos*/)              /*!< ITM 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  939:Drivers/CMSIS/Include/core_cm4.h **** } DWT_Type;
  940:Drivers/CMSIS/Include/core_cm4.h **** 
  941:Drivers/CMSIS/Include/core_cm4.h **** /* DWT Control Register Definitions */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 18
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 18
 
 
  942:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CTRL_NUMCOMP_Pos               28U                                         /*!< DWT CTR
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  996:Drivers/CMSIS/Include/core_cm4.h **** /* DWT CPI Count Register Definitions */
  997:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CPICNT_CPICNT_Pos               0U                                         /*!< DWT CPI
  998:Drivers/CMSIS/Include/core_cm4.h **** #define DWT_CPICNT_CPICNT_Msk              (0xFFUL /*<< DWT_CPICNT_CPICNT_Pos*/)       /*!< DWT CPI
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 19
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 19
 
 
  999:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1053:Drivers/CMSIS/Include/core_cm4.h ****   \defgroup CMSIS_TPI     Trace Port Interface (TPI)
 1054:Drivers/CMSIS/Include/core_cm4.h ****   \brief    Type definitions for the Trace Port Interface (TPI)
 1055:Drivers/CMSIS/Include/core_cm4.h ****   @{
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 20
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 20
 
 
 1056:Drivers/CMSIS/Include/core_cm4.h ****  */
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1110:Drivers/CMSIS/Include/core_cm4.h **** /* TPI Formatter and Flush Control Register Definitions */
 1111:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FFCR_TrigIn_Pos                 8U                                         /*!< TPI FFC
 1112:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FFCR_TrigIn_Msk                (0x1UL << TPI_FFCR_TrigIn_Pos)              /*!< TPI FFC
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 21
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 21
 
 
 1113:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1167:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FIFO1_ITM1_Msk                 (0xFFUL << TPI_FIFO1_ITM1_Pos)              /*!< TPI FIF
 1168:Drivers/CMSIS/Include/core_cm4.h **** 
 1169:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FIFO1_ITM0_Pos                  0U                                         /*!< TPI FIF
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 22
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 22
 
 
 1170:Drivers/CMSIS/Include/core_cm4.h **** #define TPI_FIFO1_ITM0_Msk                 (0xFFUL /*<< TPI_FIFO1_ITM0_Pos*/)          /*!< TPI FIF
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1224:Drivers/CMSIS/Include/core_cm4.h **** {
 1225:Drivers/CMSIS/Include/core_cm4.h ****   __IM  uint32_t TYPE;                   /*!< Offset: 0x000 (R/ )  MPU Type Register */
 1226:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t CTRL;                   /*!< Offset: 0x004 (R/W)  MPU Control Register */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 23
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 23
 
 
 1227:Drivers/CMSIS/Include/core_cm4.h ****   __IOM uint32_t RNR;                    /*!< Offset: 0x008 (R/W)  MPU Region RNRber Register */
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1281:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_RASR_AP_Pos                    24U                                            /*!< MPU 
 1282:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_RASR_AP_Msk                    (0x7UL << MPU_RASR_AP_Pos)                     /*!< MPU 
 1283:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 24
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 24
 
 
 1284:Drivers/CMSIS/Include/core_cm4.h **** #define MPU_RASR_TEX_Pos                   19U                                            /*!< MPU 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1338:Drivers/CMSIS/Include/core_cm4.h **** 
 1339:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_FPCCR_BFRDY_Pos                 6U                                            /*!< FPCC
 1340:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_FPCCR_BFRDY_Msk                (1UL << FPU_FPCCR_BFRDY_Pos)                   /*!< FPCC
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 25
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 25
 
 
 1341:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1395:Drivers/CMSIS/Include/core_cm4.h **** 
 1396:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_MVFR0_A_SIMD_registers_Pos      0U                                            /*!< MVFR
 1397:Drivers/CMSIS/Include/core_cm4.h **** #define FPU_MVFR0_A_SIMD_registers_Msk     (0xFUL /*<< FPU_MVFR0_A_SIMD_registers_Pos*/)  /*!< MVFR
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 26
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 26
 
 
 1398:Drivers/CMSIS/Include/core_cm4.h **** 
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1452:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DHCSR_S_REGRDY_Pos       16U                                            /*!< Core
 1453:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DHCSR_S_REGRDY_Msk       (1UL << CoreDebug_DHCSR_S_REGRDY_Pos)          /*!< Core
 1454:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 27
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 27
 
 
 1455:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DHCSR_C_SNAPSTALL_Pos     5U                                            /*!< Core
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1509:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DEMCR_VC_NOCPERR_Msk     (1UL << CoreDebug_DEMCR_VC_NOCPERR_Pos)        /*!< Core
 1510:Drivers/CMSIS/Include/core_cm4.h **** 
 1511:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DEMCR_VC_MMERR_Pos        4U                                            /*!< Core
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 28
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 28
 
 
 1512:Drivers/CMSIS/Include/core_cm4.h **** #define CoreDebug_DEMCR_VC_MMERR_Msk       (1UL << CoreDebug_DEMCR_VC_MMERR_Pos)          /*!< Core
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1566:Drivers/CMSIS/Include/core_cm4.h **** #define NVIC                ((NVIC_Type      *)     NVIC_BASE     )   /*!< NVIC configuration struc
 1567:Drivers/CMSIS/Include/core_cm4.h **** #define ITM                 ((ITM_Type       *)     ITM_BASE      )   /*!< ITM configuration struct
 1568:Drivers/CMSIS/Include/core_cm4.h **** #define DWT                 ((DWT_Type       *)     DWT_BASE      )   /*!< DWT configuration struct
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 29
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 29
 
 
 1569:Drivers/CMSIS/Include/core_cm4.h **** #define TPI                 ((TPI_Type       *)     TPI_BASE      )   /*!< TPI configuration struct
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1623:Drivers/CMSIS/Include/core_cm4.h ****   #define NVIC_SystemReset            __NVIC_SystemReset
 1624:Drivers/CMSIS/Include/core_cm4.h **** #endif /* CMSIS_NVIC_VIRTUAL */
 1625:Drivers/CMSIS/Include/core_cm4.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 30
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 30
 
 
 1626:Drivers/CMSIS/Include/core_cm4.h **** #ifdef CMSIS_VECTAB_VIRTUAL
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1680:Drivers/CMSIS/Include/core_cm4.h **** 
 1681:Drivers/CMSIS/Include/core_cm4.h **** 
 1682:Drivers/CMSIS/Include/core_cm4.h **** /**
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 31
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 31
 
 
 1683:Drivers/CMSIS/Include/core_cm4.h ****   \brief   Enable Interrupt
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
   40 0002 0CDB     		blt	.L1
 1727:Drivers/CMSIS/Include/core_cm4.h ****   {
 1728:Drivers/CMSIS/Include/core_cm4.h ****     NVIC->ICER[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 32
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 32
 
 
   41              		.loc 2 1728 5 is_stmt 1 view .LVU4
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
   38:Drivers/CMSIS/Include/cmsis_gcc.h **** 
   39:Drivers/CMSIS/Include/cmsis_gcc.h **** /* CMSIS compiler specific defines */
   40:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __ASM
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 33
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 33
 
 
   41:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __ASM                                  __asm
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
   95:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
   96:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
   97:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 34
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 34
 
 
   98:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT32_WRITE { uint32_t v; };
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  152:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  153:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  154:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 35
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 35
 
 
  155:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, control" : "=r" (result) );
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  209:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, ipsr" : "=r" (result) );
  210:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  211:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 36
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 36
 
 
  212:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  266:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, psp_ns"  : "=r" (result) );
  267:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  268:Drivers/CMSIS/Include/cmsis_gcc.h **** }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 37
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 37
 
 
  269:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  323:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  324:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  325:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 38
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 38
 
 
  326:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  380:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               Priority Mask value
  381:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  382:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __get_PRIMASK(void)
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 39
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 39
 
 
  383:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  437:Drivers/CMSIS/Include/cmsis_gcc.h ****            Can only be executed in Privileged modes.
  438:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  439:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __enable_fault_irq(void)
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 40
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 40
 
 
  440:Drivers/CMSIS/Include/cmsis_gcc.h **** {
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  494:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  495:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  496:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 41
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 41
 
 
  497:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (defined (__ARM_FEATURE_CMSE ) && (__ARM_FEATURE_CMSE == 3))
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  551:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  552:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  553:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Fault Mask
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 42
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 42
 
 
  554:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the Fault Mask register.
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  608:Drivers/CMSIS/Include/cmsis_gcc.h ****   Devices without ARMv8-M Main Extensions (i.e. Cortex-M23) lack the non-secure
  609:Drivers/CMSIS/Include/cmsis_gcc.h ****   Stack Pointer Limit register hence zero is returned always.
  610:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 43
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 43
 
 
  611:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the non-secure Process Stack Pointer Limit (PSPLIM) when in
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  665:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  666:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  667:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 44
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 44
 
 
  668:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  722:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the Main Stack Pointer Limit (MSPLIM).
  723:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    MainStackPtrLimit  Main Stack Pointer Limit value to set
  724:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 45
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 45
 
 
  725:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __set_MSPLIM(uint32_t MainStackPtrLimit)
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  779:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(result);
  780:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
  781:Drivers/CMSIS/Include/cmsis_gcc.h **** #else
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 46
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 46
 
 
  782:Drivers/CMSIS/Include/cmsis_gcc.h ****   return(0U);
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  836:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __NOP()                             __ASM volatile ("nop")
  837:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  838:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 47
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 47
 
 
  839:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Wait For Interrupt
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
   69              	.LBB40:
   70              	.LBI40:
  866:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 48
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 48
 
 
   71              		.loc 3 866 27 view .LVU13
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1756:Drivers/CMSIS/Include/core_cm4.h **** /**
 1757:Drivers/CMSIS/Include/core_cm4.h ****   \brief   Set Pending Interrupt
 1758:Drivers/CMSIS/Include/core_cm4.h ****   \details Sets the pending bit of a device specific interrupt in the NVIC pending register.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 49
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 49
 
 
 1759:Drivers/CMSIS/Include/core_cm4.h ****   \param [in]      IRQn  Device specific interrupt number.
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1813:Drivers/CMSIS/Include/core_cm4.h ****   \param [in]  priority  Priority to set.
 1814:Drivers/CMSIS/Include/core_cm4.h ****   \note    The priority cannot be set for every processor exception.
 1815:Drivers/CMSIS/Include/core_cm4.h ****  */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 50
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 50
 
 
 1816:Drivers/CMSIS/Include/core_cm4.h **** __STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  145              		.section	.text.__NVIC_GetPriority,"ax",%progbits
  146              		.align	1
  147              		.syntax unified
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 51
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 51
 
 
  148              		.thumb
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1848:Drivers/CMSIS/Include/core_cm4.h ****   }
 1849:Drivers/CMSIS/Include/core_cm4.h **** }
  182              		.loc 2 1849 1 view .LVU41
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 52
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 52
 
 
  183 001e 7047     		bx	lr
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  219 000e 28BF     		it	cs
  220 0010 4FF0040C 		movcs	ip, #4
  221              	.LVL11:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 53
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 53
 
 
 1870:Drivers/CMSIS/Include/core_cm4.h ****   SubPriorityBits     = ((PriorityGroupTmp + (uint32_t)(__NVIC_PRIO_BITS)) < (uint32_t)7UL) ? (uint
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1881:Drivers/CMSIS/Include/core_cm4.h ****   \details Decodes an interrupt priority value with a given priority group to
 1882:Drivers/CMSIS/Include/core_cm4.h ****            preemptive priority value and subpriority value.
 1883:Drivers/CMSIS/Include/core_cm4.h ****            In case of a conflict between priority grouping and available
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 54
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 54
 
 
 1884:Drivers/CMSIS/Include/core_cm4.h ****            priority bits (__NVIC_PRIO_BITS) the smallest possible priority group is set.
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  304 0020 4FF0FF3E 		mov	lr, #-1
  305 0024 0EFA0CFC 		lsl	ip, lr, ip
  306              	.LVL22:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 55
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 55
 
 
  307              		.loc 2 1899 53 discriminator 4 view .LVU78
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1923:Drivers/CMSIS/Include/core_cm4.h ****            The interrupt number can be positive to specify a device specific interrupt,
 1924:Drivers/CMSIS/Include/core_cm4.h ****            or negative to specify a processor exception.
 1925:Drivers/CMSIS/Include/core_cm4.h ****   \param [in]   IRQn      Interrupt number.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 56
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 56
 
 
 1926:Drivers/CMSIS/Include/core_cm4.h ****   \return                 Address of interrupt handler function
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1946:Drivers/CMSIS/Include/core_cm4.h ****   __DSB();                                                          /* Ensure completion of memory 
  369              		.loc 2 1946 3 is_stmt 1 view .LVU95
  370              	.LBB44:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 57
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 57
 
 
  371              	.LBI44:
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
   10:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *
   11:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   @verbatim  
   12:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   ==============================================================================
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 58
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 58
 
 
   13:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****                         ##### How to use this driver #####
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
   67:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   @endverbatim
   68:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   ******************************************************************************
   69:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @attention
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 59
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 59
 
 
   70:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  124:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *         using the required unlock sequence.
  125:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @param  PriorityGroup The priority grouping bits length. 
  126:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *         This parameter can be one of the following values:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 60
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 60
 
 
  127:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *         @arg NVIC_PRIORITYGROUP_0: 0 bits for preemption priority
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  437              	.LVL29:
 1664:Drivers/CMSIS/Include/core_cm4.h ****                 ((uint32_t)0x5FAUL << SCB_AIRCR_VECTKEY_Pos) |
  438              		.loc 2 1664 3 is_stmt 1 view .LVU112
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 61
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 61
 
 
 1666:Drivers/CMSIS/Include/core_cm4.h ****   SCB->AIRCR =  reg_value;
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  159:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *         This parameter can be a value between 0 and 15
  160:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *         A lower priority value indicates a higher priority.          
  161:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @retval None
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 62
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 62
 
 
  162:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   */
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  174:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** }
  515              		.loc 1 174 1 view .LVU134
  516 0018 10BD     		pop	{r4, pc}
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 63
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 63
 
 
  517              	.L33:
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  551              		.loc 2 1692 5 is_stmt 1 view .LVU142
 1692:Drivers/CMSIS/Include/core_cm4.h ****   }
  552              		.loc 2 1692 81 is_stmt 0 view .LVU143
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 64
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 64
 
 
  553 0004 00F01F02 		and	r2, r0, #31
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  594              		.cfi_offset 14, -4
  203:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   /* Check the parameters */
  204:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   assert_param(IS_NVIC_DEVICE_IRQ(IRQn));
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 65
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 65
 
 
  595              		.loc 1 204 3 is_stmt 1 view .LVU151
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  220:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** /**
  221:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @brief  Initializes the System Timer and its interrupt, and starts the System Tick Timer.
  222:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *         Counter is in free running mode to generate periodic interrupts.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 66
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 66
 
 
  223:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @param  TicksNumb Specifies the ticks Number of ticks between two interrupts.
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
 1990:Drivers/CMSIS/Include/core_cm4.h ****   else
 1991:Drivers/CMSIS/Include/core_cm4.h ****   {
 1992:Drivers/CMSIS/Include/core_cm4.h ****     return 0U;           /* No FPU */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 67
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 67
 
 
 1993:Drivers/CMSIS/Include/core_cm4.h ****   }
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  662              	.LBI54:
 1816:Drivers/CMSIS/Include/core_cm4.h **** {
  663              		.loc 2 1816 22 view .LVU165
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 68
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 68
 
 
  664              	.LBB55:
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  707              		.syntax unified
  708              		.thumb
  709              		.thumb_func
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 69
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 69
 
 
  711              	HAL_MPU_Disable:
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  725              	@ 890 "Drivers/CMSIS/Include/cmsis_gcc.h" 1
  726 0000 BFF35F8F 		dmb 0xF
  727              	@ 0 "" 2
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 70
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 70
 
 
  728              		.thumb
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  763              		.cfi_startproc
  764              		@ args = 0, pretend = 0, frame = 0
  765              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 71
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 71
 
 
  766              		@ link register save eliminated.
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  807              	.LBE60:
  290:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** }
  808              		.loc 1 290 1 is_stmt 0 view .LVU203
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 72
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 72
 
 
  809 001a 7047     		bx	lr
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  845              		.loc 1 310 5 is_stmt 1 view .LVU213
  311:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****     assert_param(IS_MPU_REGION_PERMISSION_ATTRIBUTE(MPU_Init->AccessPermission));
  846              		.loc 1 311 5 view .LVU214
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 73
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 73
 
 
  312:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****     assert_param(IS_MPU_TEX_LEVEL(MPU_Init->TypeExtField));
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  882              		.loc 1 324 84 view .LVU236
  883 0032 43EA0143 		orr	r3, r3, r1, lsl #16
  326:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****                 ((uint32_t)MPU_Init->SubRegionDisable        << MPU_RASR_SRD_Pos)  |
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 74
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 74
 
 
  884              		.loc 1 326 36 view .LVU237
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  337:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** 
  338:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** /**
  339:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @brief  Gets the priority grouping field from the NVIC Interrupt Controller.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 75
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 75
 
 
  340:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @retval Priority grouping field (SCB->AIRCR [10:8] PRIGROUP field)
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  357:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *           @arg NVIC_PRIORITYGROUP_1: 1 bits for preemption priority
  358:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *                                      3 bits for subpriority
  359:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *           @arg NVIC_PRIORITYGROUP_2: 2 bits for preemption priority
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 76
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 76
 
 
  360:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   *                                      2 bits for subpriority
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  376:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** 
  377:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** /**
  378:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @brief  Sets Pending bit of an external interrupt.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 77
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 77
 
 
  379:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   * @param  IRQn External interrupt number
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  1034              	.LBE65:
  1035              	.LBE64:
  391:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 78
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 78
 
 
  1036              		.loc 1 391 1 view .LVU275
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  1071 0002 0BDB     		blt	.L69
 1747:Drivers/CMSIS/Include/core_cm4.h ****   }
  1072              		.loc 2 1747 5 is_stmt 1 view .LVU283
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 79
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 79
 
 
 1747:Drivers/CMSIS/Include/core_cm4.h ****   }
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  419:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** {
  1112              		.loc 1 419 1 is_stmt 1 view -0
  1113              		.cfi_startproc
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 80
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 80
 
 
  1114              		@ args = 0, pretend = 0, frame = 0
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  1152              		.cfi_endproc
  1153              	.LFE143:
  1155              		.section	.text.HAL_NVIC_GetActive,"ax",%progbits
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 81
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 81
 
 
  1156              		.align	1
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  1188 000a 52F82330 		ldr	r3, [r2, r3, lsl #2]
 1798:Drivers/CMSIS/Include/core_cm4.h ****   }
  1189              		.loc 2 1798 91 view .LVU316
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 82
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 82
 
 
  1190 000e 00F01F00 		and	r0, r0, #31
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  456:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   if (CLKSource == SYSTICK_CLKSOURCE_HCLK)
  1228              		.loc 1 456 3 view .LVU324
  1229              		.loc 1 456 6 is_stmt 0 view .LVU325
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 83
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 83
 
 
  1230 0000 0428     		cmp	r0, #4
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  478:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c ****   */
  479:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** __weak void HAL_SYSTICK_Callback(void)
  480:Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c **** {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 84
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 84
 
 
  1262              		.loc 1 480 1 is_stmt 1 view -0
@@ -5027,77 +5027,77 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 1
  1301              		.file 6 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  1302              		.file 7 "Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h"
  1303              		.file 8 "Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 85
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 85
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f4xx_hal_cortex.c
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:21     .text.__NVIC_DisableIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:26     .text.__NVIC_DisableIRQ:00000000 __NVIC_DisableIRQ
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:88     .text.__NVIC_DisableIRQ:00000020 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:93     .text.__NVIC_SetPriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:98     .text.__NVIC_SetPriority:00000000 __NVIC_SetPriority
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:141    .text.__NVIC_SetPriority:00000024 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:146    .text.__NVIC_GetPriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:151    .text.__NVIC_GetPriority:00000000 __NVIC_GetPriority
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:187    .text.__NVIC_GetPriority:00000020 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:192    .text.NVIC_EncodePriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:197    .text.NVIC_EncodePriority:00000000 NVIC_EncodePriority
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:258    .text.NVIC_DecodePriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:263    .text.NVIC_DecodePriority:00000000 NVIC_DecodePriority
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:331    .text.__NVIC_SystemReset:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:336    .text.__NVIC_SystemReset:00000000 __NVIC_SystemReset
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:397    .text.__NVIC_SystemReset:0000001c $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:403    .text.HAL_NVIC_SetPriorityGrouping:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:409    .text.HAL_NVIC_SetPriorityGrouping:00000000 HAL_NVIC_SetPriorityGrouping
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:463    .text.HAL_NVIC_SetPriorityGrouping:00000020 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:468    .text.HAL_NVIC_SetPriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:474    .text.HAL_NVIC_SetPriority:00000000 HAL_NVIC_SetPriority
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:520    .text.HAL_NVIC_SetPriority:0000001c $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:525    .text.HAL_NVIC_EnableIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:531    .text.HAL_NVIC_EnableIRQ:00000000 HAL_NVIC_EnableIRQ
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:572    .text.HAL_NVIC_EnableIRQ:00000018 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:577    .text.HAL_NVIC_DisableIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:583    .text.HAL_NVIC_DisableIRQ:00000000 HAL_NVIC_DisableIRQ
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:605    .text.HAL_NVIC_SystemReset:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:611    .text.HAL_NVIC_SystemReset:00000000 HAL_NVIC_SystemReset
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:629    .text.HAL_SYSTICK_Config:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:635    .text.HAL_SYSTICK_Config:00000000 HAL_SYSTICK_Config
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:700    .text.HAL_SYSTICK_Config:00000024 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:705    .text.HAL_MPU_Disable:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:711    .text.HAL_MPU_Disable:00000000 HAL_MPU_Disable
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:748    .text.HAL_MPU_Disable:00000018 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:753    .text.HAL_MPU_Enable:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:759    .text.HAL_MPU_Enable:00000000 HAL_MPU_Enable
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:813    .text.HAL_MPU_Enable:0000001c $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:818    .text.HAL_MPU_ConfigRegion:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:824    .text.HAL_MPU_ConfigRegion:00000000 HAL_MPU_ConfigRegion
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:913    .text.HAL_MPU_ConfigRegion:0000005c $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:918    .text.HAL_NVIC_GetPriorityGrouping:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:924    .text.HAL_NVIC_GetPriorityGrouping:00000000 HAL_NVIC_GetPriorityGrouping
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:948    .text.HAL_NVIC_GetPriorityGrouping:0000000c $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:953    .text.HAL_NVIC_GetPriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:959    .text.HAL_NVIC_GetPriority:00000000 HAL_NVIC_GetPriority
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:993    .text.HAL_NVIC_SetPendingIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:999    .text.HAL_NVIC_SetPendingIRQ:00000000 HAL_NVIC_SetPendingIRQ
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1041   .text.HAL_NVIC_SetPendingIRQ:00000018 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1046   .text.HAL_NVIC_GetPendingIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1052   .text.HAL_NVIC_GetPendingIRQ:00000000 HAL_NVIC_GetPendingIRQ
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1098   .text.HAL_NVIC_GetPendingIRQ:00000020 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1103   .text.HAL_NVIC_ClearPendingIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1109   .text.HAL_NVIC_ClearPendingIRQ:00000000 HAL_NVIC_ClearPendingIRQ
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1151   .text.HAL_NVIC_ClearPendingIRQ:00000018 $d
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccE48gPK.s 			page 86
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:21     .text.__NVIC_DisableIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:26     .text.__NVIC_DisableIRQ:00000000 __NVIC_DisableIRQ
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:88     .text.__NVIC_DisableIRQ:00000020 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:93     .text.__NVIC_SetPriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:98     .text.__NVIC_SetPriority:00000000 __NVIC_SetPriority
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:141    .text.__NVIC_SetPriority:00000024 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:146    .text.__NVIC_GetPriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:151    .text.__NVIC_GetPriority:00000000 __NVIC_GetPriority
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:187    .text.__NVIC_GetPriority:00000020 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:192    .text.NVIC_EncodePriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:197    .text.NVIC_EncodePriority:00000000 NVIC_EncodePriority
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:258    .text.NVIC_DecodePriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:263    .text.NVIC_DecodePriority:00000000 NVIC_DecodePriority
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:331    .text.__NVIC_SystemReset:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:336    .text.__NVIC_SystemReset:00000000 __NVIC_SystemReset
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:397    .text.__NVIC_SystemReset:0000001c $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:403    .text.HAL_NVIC_SetPriorityGrouping:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:409    .text.HAL_NVIC_SetPriorityGrouping:00000000 HAL_NVIC_SetPriorityGrouping
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:463    .text.HAL_NVIC_SetPriorityGrouping:00000020 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:468    .text.HAL_NVIC_SetPriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:474    .text.HAL_NVIC_SetPriority:00000000 HAL_NVIC_SetPriority
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:520    .text.HAL_NVIC_SetPriority:0000001c $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:525    .text.HAL_NVIC_EnableIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:531    .text.HAL_NVIC_EnableIRQ:00000000 HAL_NVIC_EnableIRQ
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:572    .text.HAL_NVIC_EnableIRQ:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:577    .text.HAL_NVIC_DisableIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:583    .text.HAL_NVIC_DisableIRQ:00000000 HAL_NVIC_DisableIRQ
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:605    .text.HAL_NVIC_SystemReset:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:611    .text.HAL_NVIC_SystemReset:00000000 HAL_NVIC_SystemReset
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:629    .text.HAL_SYSTICK_Config:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:635    .text.HAL_SYSTICK_Config:00000000 HAL_SYSTICK_Config
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:700    .text.HAL_SYSTICK_Config:00000024 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:705    .text.HAL_MPU_Disable:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:711    .text.HAL_MPU_Disable:00000000 HAL_MPU_Disable
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:748    .text.HAL_MPU_Disable:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:753    .text.HAL_MPU_Enable:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:759    .text.HAL_MPU_Enable:00000000 HAL_MPU_Enable
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:813    .text.HAL_MPU_Enable:0000001c $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:818    .text.HAL_MPU_ConfigRegion:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:824    .text.HAL_MPU_ConfigRegion:00000000 HAL_MPU_ConfigRegion
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:913    .text.HAL_MPU_ConfigRegion:0000005c $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:918    .text.HAL_NVIC_GetPriorityGrouping:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:924    .text.HAL_NVIC_GetPriorityGrouping:00000000 HAL_NVIC_GetPriorityGrouping
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:948    .text.HAL_NVIC_GetPriorityGrouping:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:953    .text.HAL_NVIC_GetPriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:959    .text.HAL_NVIC_GetPriority:00000000 HAL_NVIC_GetPriority
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:993    .text.HAL_NVIC_SetPendingIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:999    .text.HAL_NVIC_SetPendingIRQ:00000000 HAL_NVIC_SetPendingIRQ
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1041   .text.HAL_NVIC_SetPendingIRQ:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1046   .text.HAL_NVIC_GetPendingIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1052   .text.HAL_NVIC_GetPendingIRQ:00000000 HAL_NVIC_GetPendingIRQ
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1098   .text.HAL_NVIC_GetPendingIRQ:00000020 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1103   .text.HAL_NVIC_ClearPendingIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1109   .text.HAL_NVIC_ClearPendingIRQ:00000000 HAL_NVIC_ClearPendingIRQ
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1151   .text.HAL_NVIC_ClearPendingIRQ:00000018 $d
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s 			page 86
 
 
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1156   .text.HAL_NVIC_GetActive:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1162   .text.HAL_NVIC_GetActive:00000000 HAL_NVIC_GetActive
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1208   .text.HAL_NVIC_GetActive:00000020 $d
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1213   .text.HAL_SYSTICK_CLKSourceConfig:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1219   .text.HAL_SYSTICK_CLKSourceConfig:00000000 HAL_SYSTICK_CLKSourceConfig
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1254   .text.HAL_SYSTICK_Callback:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1260   .text.HAL_SYSTICK_Callback:00000000 HAL_SYSTICK_Callback
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1273   .text.HAL_SYSTICK_IRQHandler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccE48gPK.s:1279   .text.HAL_SYSTICK_IRQHandler:00000000 HAL_SYSTICK_IRQHandler
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1156   .text.HAL_NVIC_GetActive:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1162   .text.HAL_NVIC_GetActive:00000000 HAL_NVIC_GetActive
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1208   .text.HAL_NVIC_GetActive:00000020 $d
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1213   .text.HAL_SYSTICK_CLKSourceConfig:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1219   .text.HAL_SYSTICK_CLKSourceConfig:00000000 HAL_SYSTICK_CLKSourceConfig
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1254   .text.HAL_SYSTICK_Callback:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1260   .text.HAL_SYSTICK_Callback:00000000 HAL_SYSTICK_Callback
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1273   .text.HAL_SYSTICK_IRQHandler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjEtDbH.s:1279   .text.HAL_SYSTICK_IRQHandler:00000000 HAL_SYSTICK_IRQHandler
 
 NO UNDEFINED SYMBOLS

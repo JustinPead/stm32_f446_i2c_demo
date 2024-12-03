@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZrqhBN.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 1
   30:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE END TD */
   31:Core/Src/stm32l0xx_hal_msp.c **** 
   32:Core/Src/stm32l0xx_hal_msp.c **** /* Private define ------------------------------------------------------------*/
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZrqhBN.s 			page 2
 
 
   33:Core/Src/stm32l0xx_hal_msp.c **** /* USER CODE BEGIN Define */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 1
   43 0012 9A63     		str	r2, [r3, #56]
   71:Core/Src/stm32l0xx_hal_msp.c **** 
   72:Core/Src/stm32l0xx_hal_msp.c ****   /* System interrupt init*/
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZrqhBN.s 			page 3
 
 
   73:Core/Src/stm32l0xx_hal_msp.c **** 
@@ -140,13 +140,13 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 1
   56              		.file 2 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
   57              		.file 3 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
   58              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l010x4.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZrqhBN.s 			page 4
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_msp.c
-C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s:19     .text.HAL_MspInit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s:25     .text.HAL_MspInit:00000000 HAL_MspInit
-C:\Users\justi\AppData\Local\Temp\ccfBKTWI.s:50     .text.HAL_MspInit:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccZrqhBN.s:19     .text.HAL_MspInit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccZrqhBN.s:25     .text.HAL_MspInit:00000000 HAL_MspInit
+C:\Users\justi\AppData\Local\Temp\ccZrqhBN.s:50     .text.HAL_MspInit:00000018 $d
 
 NO UNDEFINED SYMBOLS

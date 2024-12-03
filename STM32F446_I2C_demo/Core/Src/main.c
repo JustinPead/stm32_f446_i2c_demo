@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "fatfs.h"
+#include "spi.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -34,8 +36,8 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define DATA_LENGTH 7
-#define RX_START 73
-#define RX_END 5
+#define RX_START 0x54
+#define RX_END 0x70
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -47,7 +49,7 @@
 
 /* USER CODE BEGIN PV */
 uint8_t led_val = 0;
-uint16_t delay_ms = 1000;
+uint16_t delay_ms = 500;
 
 uint8_t last_device_id = 0;
 uint8_t last_sensor = 0;
@@ -59,6 +61,7 @@ uint8_t output_buff[5];
 volatile char recvd_data[DATA_LENGTH];
 char line_one[25];
 char line_two[25];
+uint16_t cnt = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -102,6 +105,8 @@ int main(void)
   MX_GPIO_Init();
   MX_UART5_Init();
   MX_USART1_UART_Init();
+  MX_SPI2_Init();
+  MX_FATFS_Init();
   /* USER CODE BEGIN 2 */
   init_LCD_pins();
   init_LCD();
@@ -116,31 +121,18 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    HAL_Delay(delay_ms);
-    led_val++;
-    last_heartbeat++;
-    //update_leds();
-    update_lcd();
+    HAL_Delay(1);
+    cnt++;
+    if(cnt%delay_ms == 0) {
+      led_val++;
+      last_heartbeat++;
+      cnt = 0;
+      update_lcd();
+    }
+    update_leds();
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    if(recvd_data[DATA_LENGTH-1]==RX_START && recvd_data[0] == RX_END) {
-      if(recvd_data[1] = (recvd_data[5]+recvd_data[4]+recvd_data[3]+recvd_data[2])) {
-        last_device_id = recvd_data[5];
-        last_sensor = recvd_data[4];
-        last_val = ((recvd_data[3]*256) + recvd_data[2]);
-        last_heartbeat = 0;
-
-        
-        output_buff[1] = (uint8_t)last_val;
-        output_buff[2] = last_val>>8;
-        output_buff[3] = last_sensor;
-        output_buff[4] = last_device_id;
-        output_buff[0] = output_buff[4]+output_buff[3]+output_buff[2]+output_buff[1];
-        HAL_UART_Transmit(&huart1,output_buff,5,100);
-        clear_rx_data();
-      }
-    }
   }
   /* USER CODE END 3 */
 }
@@ -222,6 +214,24 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
   }
   recvd_data[0] = incoming_byte;
 	HAL_GPIO_TogglePin(LED7_GPIO_Port,LED7_Pin);
+  if(recvd_data[DATA_LENGTH-1]==RX_START && recvd_data[0] == RX_END) {
+    if(recvd_data[1] = (recvd_data[5]+recvd_data[4]+recvd_data[3]+recvd_data[2])) {
+      last_device_id = recvd_data[5];
+      last_sensor = recvd_data[4];
+      last_val = ((recvd_data[3]*256) + recvd_data[2]);
+      last_heartbeat = 0;
+
+      
+      output_buff[1] = (uint8_t)last_val;
+      output_buff[2] = last_val>>8;
+      output_buff[3] = last_sensor;
+      output_buff[4] = last_device_id;
+      output_buff[0] = output_buff[4]+output_buff[3]+output_buff[2]+output_buff[1];
+      HAL_UART_Transmit(&huart1,output_buff,5,100);
+      clear_rx_data();
+      led_val = 0;
+    }
+  }
 	HAL_UART_Receive_IT(&huart5,&incoming_byte,1); //start next data receive interrupt
 }
 /* USER CODE END 4 */

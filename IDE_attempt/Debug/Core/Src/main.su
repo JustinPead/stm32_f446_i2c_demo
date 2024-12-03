@@ -1,0 +1,5 @@
+../Core/Src/main.c:88:5:main	8	static
+../Core/Src/main.c:150:6:SystemClock_Config	112	static
+../Core/Src/main.c:197:6:i2c_measure	24	static
+../Core/Src/main.c:209:6:display	16	static
+../Core/Src/main.c:336:6:Error_Handler	8	static,ignoring_inline_asm

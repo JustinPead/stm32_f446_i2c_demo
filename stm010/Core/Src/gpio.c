@@ -32,12 +32,9 @@
 
 /* USER CODE END 1 */
 
-/** Configure pins as
-        * Analog
-        * Input
-        * Output
-        * EVENT_OUT
-        * EXTI
+/** Configure pins
+     PA0-CK_IN   ------> ADC_IN0
+     PA3   ------> ADC_IN3
 */
 void MX_GPIO_Init(void)
 {
@@ -61,8 +58,10 @@ void MX_GPIO_Init(void)
                           |G_DRV_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, A_DRV_Pin|F_DRV_Pin|CTRL_LEDS_Pin|LED1_Pin
-                          |LED0_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOB, A_DRV_Pin|F_DRV_Pin|LED1_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, CTRL_LEDS_Pin|LED0_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pins : PCPin PCPin */
   GPIO_InitStruct.Pin = CTRL_PWR_LIGHT_Pin|CTRL_PWR_TEMP_Pin;
@@ -70,6 +69,12 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PAPin PAPin */
+  GPIO_InitStruct.Pin = SENSE_LIGHT_Pin|SENSE_PWR_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pins : PAPin PAPin PAPin PAPin
                            PAPin PAPin PAPin PAPin

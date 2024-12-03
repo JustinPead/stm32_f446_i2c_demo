@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @{
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   */
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 2
 
 
   33:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** /** @addtogroup PWR
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
   32              		.loc 1 81 3 view .LVU1
   33 0000 054B     		ldr	r3, .L2
   34 0002 996A     		ldr	r1, [r3, #40]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 3
 
 
   35 0004 8022     		movs	r2, #128
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  109:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     *** PVD configuration ***
  110:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     =========================
  111:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     [..]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 4
 
 
  112:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       (+) The PVD is used to monitor the VDD power supply by comparing it to a
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  166:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****    =========================
  167:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     [..]
  168:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****        To further reduce the consumption when the system is in Run mode, the regulator can be
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 5
 
 
  169:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****         configured in low power mode. In this mode, the system frequency should not exceed
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  223:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       incurred when waking up from Stop mode.
  224:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       To minimize the consumption In Stop mode, VREFINT, the BOR, PVD, and temperature
  225:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       sensor can be switched off before entering Stop mode. They can be switched on again by
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 6
 
 
  226:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****       software after exiting Stop mode using the ULP bit in the PWR_CR register.
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  280:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****                    function.
  281:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****              (+++) Configure the RTC to detect the tamper or time stamp event using the
  282:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****                    RTC_TimeStampConfig(), RTC_TamperTriggerConfig() and RTC_TamperCmd()
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 7
 
 
  283:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****                    functions.
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
   71 0002 1168     		ldr	r1, [r2]
   72 0004 8023     		movs	r3, #128
   73 0006 5B00     		lsls	r3, r3, #1
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 8
 
 
   74 0008 0B43     		orrs	r3, r1
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  117              		.section	.text.HAL_PWR_EnableWakeUpPin,"ax",%progbits
  118              		.align	1
  119              		.global	HAL_PWR_EnableWakeUpPin
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 9
 
 
  120              		.syntax unified
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  392:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** }
  393:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** 
  394:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** /**
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 10
 
 
  395:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @brief Enables the Power Voltage Detector(PVD).
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  145              		.cfi_endproc
  146              	.LFE43:
  148              		.section	.text.HAL_PWR_DisableWakeUpPin,"ax",%progbits
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 11
 
 
  149              		.align	1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  448:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** 
  449:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** /**
  450:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @brief Enters Sleep mode.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 12
 
 
  451:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @note In Sleep mode, all I/O pins keep the same state as in Run mode.
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  476:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   vrefinbit = READ_BIT(SYSCFG->CFGR3, SYSCFG_CFGR3_EN_VREFINT);
  218              		.loc 1 476 3 is_stmt 1 view .LVU28
  219              		.loc 1 476 15 is_stmt 0 view .LVU29
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 13
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 13
 
 
  220 0010 164B     		ldr	r3, .L22+4
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  255              		.loc 1 495 3 is_stmt 1 view .LVU41
  256 0036 0F48     		ldr	r0, .L22+12
  257              	.LVL10:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 14
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 14
 
 
  258              		.loc 1 495 3 is_stmt 0 view .LVU42
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  513:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****     SET_BIT(PWR->CR, PWR_CR_ULP);
  295              		.loc 1 513 5 is_stmt 1 view .LVU53
  296 0052 054A     		ldr	r2, .L22
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 15
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 15
 
 
  297 0054 1168     		ldr	r1, [r2]
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  346              	HAL_PWR_EnterSTOPMode:
  347              	.LVL18:
  348              	.LFB46:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 16
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 16
 
 
  520:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  366              		.loc 1 556 3 view .LVU66
  367              		.loc 1 556 12 is_stmt 0 view .LVU67
  368 0004 1A4B     		ldr	r3, .L30
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 17
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 17
 
 
  369 0006 1D68     		ldr	r5, [r3]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  409              		.loc 1 570 3 view .LVU80
  410 0032 1043     		orrs	r0, r2
  411              	.LVL25:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 18
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 18
 
 
  571:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** 
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  447              	.L27:
  590:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   }
  591:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****  
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 19
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 19
 
 
  592:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   /* Reset SLEEPDEEP bit of Cortex System Control Register */
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  493 0078 FFFDFFFF 		.word	-513
  494 007c 00ED00E0 		.word	-536810240
  495              		.cfi_endproc
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 20
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 20
 
 
  496              	.LFE46:
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  524              		.loc 1 627 3 view .LVU105
  525              		.syntax divided
  526              	@ 627 "Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c" 1
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 21
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 21
 
 
  527 0014 30BF     		wfi
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  568 000c 00ED00E0 		.word	-536810240
  569              		.cfi_endproc
  570              	.LFE48:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 22
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 22
 
 
  572              		.section	.text.HAL_PWR_DisableSleepOnExit,"ax",%progbits
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  661:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   *       WFE to wake up when an interrupt moves from inactive to pended.
  662:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   * @retval None
  663:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c ****   */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 23
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 23
 
 
  664:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** void HAL_PWR_EnableSEVOnPend(void)
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  650 0006 8B43     		bics	r3, r1
  651 0008 1361     		str	r3, [r2, #16]
  681:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c **** }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 24
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 24
 
 
  652              		.loc 1 681 1 is_stmt 0 view .LVU118
@@ -1396,46 +1396,46 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 1
  665              		.file 3 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  666              		.file 4 "Drivers/CMSIS/Include/core_cm0plus.h"
  667              		.file 5 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l010x4.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cccBHluF.s 			page 25
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_pwr.c
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:19     .text.HAL_PWR_DeInit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:25     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:50     .text.HAL_PWR_DeInit:00000018 $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:56     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:62     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:82     .text.HAL_PWR_EnableBkUpAccess:00000010 $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:87     .text.HAL_PWR_DisableBkUpAccess:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:93     .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:112    .text.HAL_PWR_DisableBkUpAccess:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:118    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:124    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:144    .text.HAL_PWR_EnableWakeUpPin:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:149    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:155    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:175    .text.HAL_PWR_DisableWakeUpPin:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:180    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:186    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:332    .text.HAL_PWR_EnterSLEEPMode:00000068 $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:340    .text.HAL_PWR_EnterSTOPMode:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:346    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:491    .text.HAL_PWR_EnterSTOPMode:00000070 $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:499    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:505    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:537    .text.HAL_PWR_EnterSTANDBYMode:00000018 $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:543    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:549    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:568    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:573    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:579    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:598    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:603    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:609    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:628    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:633    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:639    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
-C:\Users\justi\AppData\Local\Temp\cccBHluF.s:658    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:19     .text.HAL_PWR_DeInit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:25     .text.HAL_PWR_DeInit:00000000 HAL_PWR_DeInit
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:50     .text.HAL_PWR_DeInit:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:56     .text.HAL_PWR_EnableBkUpAccess:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:62     .text.HAL_PWR_EnableBkUpAccess:00000000 HAL_PWR_EnableBkUpAccess
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:82     .text.HAL_PWR_EnableBkUpAccess:00000010 $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:87     .text.HAL_PWR_DisableBkUpAccess:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:93     .text.HAL_PWR_DisableBkUpAccess:00000000 HAL_PWR_DisableBkUpAccess
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:112    .text.HAL_PWR_DisableBkUpAccess:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:118    .text.HAL_PWR_EnableWakeUpPin:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:124    .text.HAL_PWR_EnableWakeUpPin:00000000 HAL_PWR_EnableWakeUpPin
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:144    .text.HAL_PWR_EnableWakeUpPin:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:149    .text.HAL_PWR_DisableWakeUpPin:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:155    .text.HAL_PWR_DisableWakeUpPin:00000000 HAL_PWR_DisableWakeUpPin
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:175    .text.HAL_PWR_DisableWakeUpPin:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:180    .text.HAL_PWR_EnterSLEEPMode:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:186    .text.HAL_PWR_EnterSLEEPMode:00000000 HAL_PWR_EnterSLEEPMode
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:332    .text.HAL_PWR_EnterSLEEPMode:00000068 $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:340    .text.HAL_PWR_EnterSTOPMode:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:346    .text.HAL_PWR_EnterSTOPMode:00000000 HAL_PWR_EnterSTOPMode
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:491    .text.HAL_PWR_EnterSTOPMode:00000070 $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:499    .text.HAL_PWR_EnterSTANDBYMode:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:505    .text.HAL_PWR_EnterSTANDBYMode:00000000 HAL_PWR_EnterSTANDBYMode
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:537    .text.HAL_PWR_EnterSTANDBYMode:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:543    .text.HAL_PWR_EnableSleepOnExit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:549    .text.HAL_PWR_EnableSleepOnExit:00000000 HAL_PWR_EnableSleepOnExit
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:568    .text.HAL_PWR_EnableSleepOnExit:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:573    .text.HAL_PWR_DisableSleepOnExit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:579    .text.HAL_PWR_DisableSleepOnExit:00000000 HAL_PWR_DisableSleepOnExit
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:598    .text.HAL_PWR_DisableSleepOnExit:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:603    .text.HAL_PWR_EnableSEVOnPend:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:609    .text.HAL_PWR_EnableSEVOnPend:00000000 HAL_PWR_EnableSEVOnPend
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:628    .text.HAL_PWR_EnableSEVOnPend:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:633    .text.HAL_PWR_DisableSEVOnPend:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:639    .text.HAL_PWR_DisableSEVOnPend:00000000 HAL_PWR_DisableSEVOnPend
+C:\Users\justi\AppData\Local\Temp\ccRv3Uwh.s:658    .text.HAL_PWR_DisableSEVOnPend:0000000c $d
 
 NO UNDEFINED SYMBOLS

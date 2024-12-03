@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
   29:Drivers/CMSIS/Include/core_cm0plus.h **** #endif
   30:Drivers/CMSIS/Include/core_cm0plus.h **** 
   31:Drivers/CMSIS/Include/core_cm0plus.h **** #ifndef __CORE_CM0PLUS_H_GENERIC
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 2
 
 
   32:Drivers/CMSIS/Include/core_cm0plus.h **** #define __CORE_CM0PLUS_H_GENERIC
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
   86:Drivers/CMSIS/Include/core_cm0plus.h ****   #endif
   87:Drivers/CMSIS/Include/core_cm0plus.h **** 
   88:Drivers/CMSIS/Include/core_cm0plus.h **** #elif defined ( __GNUC__ )
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 3
 
 
   89:Drivers/CMSIS/Include/core_cm0plus.h ****   #if defined (__VFP_FP__) && !defined(__SOFTFP__)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  143:Drivers/CMSIS/Include/core_cm0plus.h ****   #endif
  144:Drivers/CMSIS/Include/core_cm0plus.h **** 
  145:Drivers/CMSIS/Include/core_cm0plus.h ****   #ifndef __VTOR_PRESENT
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 4
 
 
  146:Drivers/CMSIS/Include/core_cm0plus.h ****     #define __VTOR_PRESENT            0U
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  200:Drivers/CMSIS/Include/core_cm0plus.h **** /**
  201:Drivers/CMSIS/Include/core_cm0plus.h ****   \ingroup    CMSIS_core_register
  202:Drivers/CMSIS/Include/core_cm0plus.h ****   \defgroup   CMSIS_CORE  Status and Control Registers
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 5
 
 
  203:Drivers/CMSIS/Include/core_cm0plus.h ****   \brief      Core Register type definitions.
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  257:Drivers/CMSIS/Include/core_cm0plus.h ****  */
  258:Drivers/CMSIS/Include/core_cm0plus.h **** typedef union
  259:Drivers/CMSIS/Include/core_cm0plus.h **** {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 6
 
 
  260:Drivers/CMSIS/Include/core_cm0plus.h ****   struct
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  314:Drivers/CMSIS/Include/core_cm0plus.h **** 
  315:Drivers/CMSIS/Include/core_cm0plus.h **** /*@} end of group CMSIS_CORE */
  316:Drivers/CMSIS/Include/core_cm0plus.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 7
 
 
  317:Drivers/CMSIS/Include/core_cm0plus.h **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  371:Drivers/CMSIS/Include/core_cm0plus.h **** 
  372:Drivers/CMSIS/Include/core_cm0plus.h **** /* SCB CPUID Register Definitions */
  373:Drivers/CMSIS/Include/core_cm0plus.h **** #define SCB_CPUID_IMPLEMENTER_Pos          24U                                            /*!< SCB 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 8
 
 
  374:Drivers/CMSIS/Include/core_cm0plus.h **** #define SCB_CPUID_IMPLEMENTER_Msk          (0xFFUL << SCB_CPUID_IMPLEMENTER_Pos)          /*!< SCB 
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  428:Drivers/CMSIS/Include/core_cm0plus.h **** 
  429:Drivers/CMSIS/Include/core_cm0plus.h **** #define SCB_AIRCR_ENDIANESS_Pos            15U                                            /*!< SCB 
  430:Drivers/CMSIS/Include/core_cm0plus.h **** #define SCB_AIRCR_ENDIANESS_Msk            (1UL << SCB_AIRCR_ENDIANESS_Pos)               /*!< SCB 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 9
 
 
  431:Drivers/CMSIS/Include/core_cm0plus.h **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  485:Drivers/CMSIS/Include/core_cm0plus.h **** #define SysTick_CTRL_CLKSOURCE_Msk         (1UL << SysTick_CTRL_CLKSOURCE_Pos)            /*!< SysT
  486:Drivers/CMSIS/Include/core_cm0plus.h **** 
  487:Drivers/CMSIS/Include/core_cm0plus.h **** #define SysTick_CTRL_TICKINT_Pos            1U                                            /*!< SysT
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 10
 
 
  488:Drivers/CMSIS/Include/core_cm0plus.h **** #define SysTick_CTRL_TICKINT_Msk           (1UL << SysTick_CTRL_TICKINT_Pos)              /*!< SysT
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  542:Drivers/CMSIS/Include/core_cm0plus.h **** #define MPU_TYPE_SEPARATE_Pos               0U                                            /*!< MPU 
  543:Drivers/CMSIS/Include/core_cm0plus.h **** #define MPU_TYPE_SEPARATE_Msk              (1UL /*<< MPU_TYPE_SEPARATE_Pos*/)             /*!< MPU 
  544:Drivers/CMSIS/Include/core_cm0plus.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 11
 
 
  545:Drivers/CMSIS/Include/core_cm0plus.h **** /* MPU Control Register Definitions */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  599:Drivers/CMSIS/Include/core_cm0plus.h **** 
  600:Drivers/CMSIS/Include/core_cm0plus.h **** /*@} end of group CMSIS_MPU */
  601:Drivers/CMSIS/Include/core_cm0plus.h **** #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 12
 
 
  602:Drivers/CMSIS/Include/core_cm0plus.h **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  656:Drivers/CMSIS/Include/core_cm0plus.h **** 
  657:Drivers/CMSIS/Include/core_cm0plus.h **** #if defined (__MPU_PRESENT) && (__MPU_PRESENT == 1U)
  658:Drivers/CMSIS/Include/core_cm0plus.h ****   #define MPU_BASE          (SCS_BASE +  0x0D90UL)                    /*!< Memory Protection Unit *
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 13
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 13
 
 
  659:Drivers/CMSIS/Include/core_cm0plus.h ****   #define MPU               ((MPU_Type       *)     MPU_BASE      )   /*!< Memory Protection Unit *
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  713:Drivers/CMSIS/Include/core_cm0plus.h ****   #define NVIC_SetVector              __NVIC_SetVector
  714:Drivers/CMSIS/Include/core_cm0plus.h ****   #define NVIC_GetVector              __NVIC_GetVector
  715:Drivers/CMSIS/Include/core_cm0plus.h **** #endif  /* (CMSIS_VECTAB_VIRTUAL) */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 14
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 14
 
 
  716:Drivers/CMSIS/Include/core_cm0plus.h **** 
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  770:Drivers/CMSIS/Include/core_cm0plus.h **** 
  771:Drivers/CMSIS/Include/core_cm0plus.h **** /**
  772:Drivers/CMSIS/Include/core_cm0plus.h ****   \brief   Disable Interrupt
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 15
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 15
 
 
  773:Drivers/CMSIS/Include/core_cm0plus.h ****   \details Disables a device specific interrupt in the NVIC interrupt controller.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  827:Drivers/CMSIS/Include/core_cm0plus.h ****   \param [in]      IRQn  Device specific interrupt number.
  828:Drivers/CMSIS/Include/core_cm0plus.h ****   \note    IRQn must not be negative.
  829:Drivers/CMSIS/Include/core_cm0plus.h ****  */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 16
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 16
 
 
  830:Drivers/CMSIS/Include/core_cm0plus.h **** __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
   59 0018 1600     		movs	r6, r2
   60 001a 8640     		lsls	r6, r6, r0
   61              		.loc 2 852 33 view .LVU10
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 17
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 17
 
 
   62 001c B443     		bics	r4, r6
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  100 0044 FC32     		adds	r2, r2, #252
  101 0046 1500     		movs	r5, r2
  102 0048 8540     		lsls	r5, r5, r0
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 18
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 18
 
 
  857:Drivers/CMSIS/Include/core_cm0plus.h ****        (((priority << (8U - __NVIC_PRIO_BITS)) & (uint32_t)0xFFUL) << _BIT_SHIFT(IRQn)));
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  874:Drivers/CMSIS/Include/core_cm0plus.h **** 
  875:Drivers/CMSIS/Include/core_cm0plus.h ****   if ((int32_t)(IRQn) >= 0)
  140              		.loc 2 875 3 view .LVU31
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 19
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 19
 
 
  141              		.loc 2 875 6 is_stmt 0 view .LVU32
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  183              		.loc 2 881 53 view .LVU44
  184 0032 0322     		movs	r2, #3
  185 0034 0240     		ands	r2, r0
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 20
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 20
 
 
  186 0036 D200     		lsls	r2, r2, #3
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  911:Drivers/CMSIS/Include/core_cm0plus.h **** 
  912:Drivers/CMSIS/Include/core_cm0plus.h **** 
  913:Drivers/CMSIS/Include/core_cm0plus.h **** /**
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 21
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 21
 
 
  914:Drivers/CMSIS/Include/core_cm0plus.h ****   \brief   Decode Priority
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  968:Drivers/CMSIS/Include/core_cm0plus.h **** {
  969:Drivers/CMSIS/Include/core_cm0plus.h **** #if defined (__VTOR_PRESENT) && (__VTOR_PRESENT == 1U)
  970:Drivers/CMSIS/Include/core_cm0plus.h ****   uint32_t *vectors = (uint32_t *)SCB->VTOR;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 22
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 22
 
 
  971:Drivers/CMSIS/Include/core_cm0plus.h **** #else
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
   30:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wsign-conversion"
   31:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wconversion"
   32:Drivers/CMSIS/Include/cmsis_gcc.h **** #pragma GCC diagnostic ignored "-Wunused-parameter"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 23
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 23
 
 
   33:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
   87:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
   88:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
   89:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 24
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 24
 
 
   90:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT16_READ { uint16_t v; };
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  144:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  145:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  146:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 25
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 25
 
 
  147:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Control Register
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  201:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get IPSR Register
  202:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the content of the IPSR Register.
  203:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               IPSR Register value
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 26
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 26
 
 
  204:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  258:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Get Process Stack Pointer (non-secure)
  259:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Returns the current value of the non-secure Process Stack Pointer (PSP) when in secure s
  260:Drivers/CMSIS/Include/cmsis_gcc.h ****   \return               PSP Register value
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 27
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 27
 
 
  261:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  315:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  316:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE uint32_t __TZ_get_MSP_NS(void)
  317:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 28
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 28
 
 
  318:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  372:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MSR sp_ns, %0" : : "r" (topOfStack) : );
  373:Drivers/CMSIS/Include/cmsis_gcc.h **** }
  374:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 29
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 29
 
 
  375:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  429:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  430:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  431:Drivers/CMSIS/Include/cmsis_gcc.h **** #if ((defined (__ARM_ARCH_7M__      ) && (__ARM_ARCH_7M__      == 1)) || \
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 30
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 30
 
 
  432:Drivers/CMSIS/Include/cmsis_gcc.h ****      (defined (__ARM_ARCH_7EM__     ) && (__ARM_ARCH_7EM__     == 1)) || \
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  486:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
  487:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Base Priority
  488:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Assigns the given value to the Base Priority register.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 31
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 31
 
 
  489:Drivers/CMSIS/Include/cmsis_gcc.h ****   \param [in]    basePri  Base Priority value to set
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  543:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  544:Drivers/CMSIS/Include/cmsis_gcc.h ****   uint32_t result;
  545:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 32
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 32
 
 
  546:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, faultmask_ns" : "=r" (result) );
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  600:Drivers/CMSIS/Include/cmsis_gcc.h ****   __ASM volatile ("MRS %0, psplim"  : "=r" (result) );
  601:Drivers/CMSIS/Include/cmsis_gcc.h ****   return result;
  602:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 33
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 33
 
 
  603:Drivers/CMSIS/Include/cmsis_gcc.h **** }
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  657:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
  658:Drivers/CMSIS/Include/cmsis_gcc.h **** __STATIC_FORCEINLINE void __TZ_set_PSPLIM_NS(uint32_t ProcStackPtrLimit)
  659:Drivers/CMSIS/Include/cmsis_gcc.h **** {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 34
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 34
 
 
  660:Drivers/CMSIS/Include/cmsis_gcc.h **** #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)))
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  714:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  715:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  716:Drivers/CMSIS/Include/cmsis_gcc.h **** /**
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 35
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 35
 
 
  717:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Set Main Stack Pointer Limit
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  771:Drivers/CMSIS/Include/cmsis_gcc.h **** // Re-enable using built-in when GCC has been fixed
  772:Drivers/CMSIS/Include/cmsis_gcc.h **** // || (__GNUC__ > 7) || (__GNUC__ == 7 && __GNUC_MINOR__ >= 2)
  773:Drivers/CMSIS/Include/cmsis_gcc.h ****   /* see https://gcc.gnu.org/ml/gcc-patches/2017-04/msg00443.html */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 36
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 36
 
 
  774:Drivers/CMSIS/Include/cmsis_gcc.h ****   return __builtin_arm_get_fpscr();
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  828:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __CMSIS_GCC_RW_REG(r) "+r" (r)
  829:Drivers/CMSIS/Include/cmsis_gcc.h **** #define __CMSIS_GCC_USE_REG(r) "r" (r)
  830:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 37
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 37
 
 
  831:Drivers/CMSIS/Include/cmsis_gcc.h **** 
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  227 0000 BFF34F8F 		dsb 0xF
  228              	@ 0 "" 2
  229              		.thumb
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 38
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 38
 
 
  230              		.syntax unified
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  275              		.thumb_func
  277              	SysTick_Config:
  278              	.LVL10:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 39
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 39
 
 
  279              	.LFB39:
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
 1047:Drivers/CMSIS/Include/core_cm0plus.h ****   \param [in]  ticks  Number of ticks between two interrupts.
 1048:Drivers/CMSIS/Include/core_cm0plus.h ****   \return          0  Function succeeded.
 1049:Drivers/CMSIS/Include/core_cm0plus.h ****   \return          1  Function failed.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 40
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 40
 
 
 1050:Drivers/CMSIS/Include/core_cm0plus.h ****   \note    When the variable <b>__Vendor_SysTickConfig</b> is set to 1, then the
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  314              		.loc 2 857 102 view .LVU73
  315 0016 C021     		movs	r1, #192
  316 0018 0906     		lsls	r1, r1, #24
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 41
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 41
 
 
  317 001a 0B43     		orrs	r3, r1
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
    4:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   * @author  MCD Application Team
    5:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   * @brief   CORTEX HAL module driver.
    6:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   *          This file provides firmware functions to manage the following 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 42
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 42
 
 
    7:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   *          functionalities of the CORTEX:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
   61:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****        (++) Reload Value should not exceed 0xFFFFFF
   62:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****    
   63:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   @endverbatim
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 43
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 43
 
 
   64:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   ******************************************************************************
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  118:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c **** /**
  119:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   * @brief  Sets the priority of an interrupt.
  120:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   * @param  IRQn External interrupt number .
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 44
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 44
 
 
  121:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   *         This parameter can be an enumerator of  IRQn_Type enumeration
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  148:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c **** {
  390              		.loc 1 148 1 is_stmt 1 view -0
  391              		.cfi_startproc
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 45
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 45
 
 
  392              		@ args = 0, pretend = 0, frame = 0
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  433              		.syntax unified
  434              		.code	16
  435              		.thumb_func
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 46
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 46
 
 
  437              	HAL_NVIC_DisableIRQ:
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  468              	.LBI36:
  877:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  469              		.loc 3 877 27 view .LVU112
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 47
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 47
 
 
  470              	.LBB37:
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  174:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   * @retval None
  175:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   */
  176:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c **** void HAL_NVIC_SystemReset(void)
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 48
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 48
 
 
  177:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c **** {
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  558 0006 10BD     		pop	{r4, pc}
  559              		.cfi_endproc
  560              	.LFE44:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 49
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 49
 
 
  562              		.section	.text.HAL_NVIC_GetPriority,"ax",%progbits
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  225:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c **** }
  585              		.loc 1 225 1 view .LVU130
  586              		@ sp needed
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 50
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 50
 
 
  587 0006 10BD     		pop	{r4, pc}
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  624 000e 8022     		movs	r2, #128
  625 0010 5200     		lsls	r2, r2, #1
  626 0012 8B50     		str	r3, [r1, r2]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 51
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 51
 
 
  627              	.LVL27:
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  664 0000 0028     		cmp	r0, #0
  665 0002 09DB     		blt	.L38
  800:Drivers/CMSIS/Include/core_cm0plus.h ****   }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 52
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 52
 
 
  666              		.loc 2 800 5 is_stmt 1 view .LVU147
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  711              		.global	HAL_NVIC_ClearPendingIRQ
  712              		.syntax unified
  713              		.code	16
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 53
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 53
 
 
  714              		.thumb_func
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  749              	.LBE46:
  266:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c **** }
  750              		.loc 1 266 1 view .LVU168
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 54
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 54
 
 
  751              		@ sp needed
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  786 000a 8B43     		bics	r3, r1
  787 000c 1360     		str	r3, [r2]
  788              	.L45:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 55
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 55
 
 
  288:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****   }
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  307:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****             the HAL_SYSTICK_Callback could be implemented in the user file
  308:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c ****    */
  309:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c **** }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 56
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 56
 
 
  823              		.loc 1 309 1 view .LVU181
@@ -3338,52 +3338,52 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 1
  857              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l010x4.h"
  858              		.file 5 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  859              		.file 6 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s 			page 57
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s 			page 57
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_cortex.c
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:19     .text.__NVIC_SetPriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:24     .text.__NVIC_SetPriority:00000000 __NVIC_SetPriority
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:121    .text.__NVIC_SetPriority:00000058 $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:127    .text.__NVIC_GetPriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:132    .text.__NVIC_GetPriority:00000000 __NVIC_GetPriority
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:199    .text.__NVIC_GetPriority:00000044 $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:205    .text.__NVIC_SystemReset:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:210    .text.__NVIC_SystemReset:00000000 __NVIC_SystemReset
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:266    .text.__NVIC_SystemReset:00000014 $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:272    .text.SysTick_Config:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:277    .text.SysTick_Config:00000000 SysTick_Config
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:346    .text.SysTick_Config:00000030 $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:352    .text.HAL_NVIC_SetPriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:358    .text.HAL_NVIC_SetPriority:00000000 HAL_NVIC_SetPriority
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:381    .text.HAL_NVIC_EnableIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:387    .text.HAL_NVIC_EnableIRQ:00000000 HAL_NVIC_EnableIRQ
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:426    .text.HAL_NVIC_EnableIRQ:00000014 $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:431    .text.HAL_NVIC_DisableIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:437    .text.HAL_NVIC_DisableIRQ:00000000 HAL_NVIC_DisableIRQ
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:505    .text.HAL_NVIC_DisableIRQ:0000001c $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:510    .text.HAL_NVIC_SystemReset:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:516    .text.HAL_NVIC_SystemReset:00000000 HAL_NVIC_SystemReset
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:534    .text.HAL_SYSTICK_Config:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:540    .text.HAL_SYSTICK_Config:00000000 HAL_SYSTICK_Config
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:563    .text.HAL_NVIC_GetPriority:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:569    .text.HAL_NVIC_GetPriority:00000000 HAL_NVIC_GetPriority
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:592    .text.HAL_NVIC_SetPendingIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:598    .text.HAL_NVIC_SetPendingIRQ:00000000 HAL_NVIC_SetPendingIRQ
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:638    .text.HAL_NVIC_SetPendingIRQ:00000018 $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:643    .text.HAL_NVIC_GetPendingIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:649    .text.HAL_NVIC_GetPendingIRQ:00000000 HAL_NVIC_GetPendingIRQ
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:705    .text.HAL_NVIC_GetPendingIRQ:0000001c $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:710    .text.HAL_NVIC_ClearPendingIRQ:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:716    .text.HAL_NVIC_ClearPendingIRQ:00000000 HAL_NVIC_ClearPendingIRQ
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:756    .text.HAL_NVIC_ClearPendingIRQ:00000018 $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:761    .text.HAL_SYSTICK_CLKSourceConfig:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:767    .text.HAL_SYSTICK_CLKSourceConfig:00000000 HAL_SYSTICK_CLKSourceConfig
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:805    .text.HAL_SYSTICK_CLKSourceConfig:0000001c $d
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:810    .text.HAL_SYSTICK_Callback:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:816    .text.HAL_SYSTICK_Callback:00000000 HAL_SYSTICK_Callback
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:830    .text.HAL_SYSTICK_IRQHandler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccHL7LTV.s:836    .text.HAL_SYSTICK_IRQHandler:00000000 HAL_SYSTICK_IRQHandler
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:19     .text.__NVIC_SetPriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:24     .text.__NVIC_SetPriority:00000000 __NVIC_SetPriority
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:121    .text.__NVIC_SetPriority:00000058 $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:127    .text.__NVIC_GetPriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:132    .text.__NVIC_GetPriority:00000000 __NVIC_GetPriority
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:199    .text.__NVIC_GetPriority:00000044 $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:205    .text.__NVIC_SystemReset:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:210    .text.__NVIC_SystemReset:00000000 __NVIC_SystemReset
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:266    .text.__NVIC_SystemReset:00000014 $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:272    .text.SysTick_Config:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:277    .text.SysTick_Config:00000000 SysTick_Config
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:346    .text.SysTick_Config:00000030 $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:352    .text.HAL_NVIC_SetPriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:358    .text.HAL_NVIC_SetPriority:00000000 HAL_NVIC_SetPriority
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:381    .text.HAL_NVIC_EnableIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:387    .text.HAL_NVIC_EnableIRQ:00000000 HAL_NVIC_EnableIRQ
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:426    .text.HAL_NVIC_EnableIRQ:00000014 $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:431    .text.HAL_NVIC_DisableIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:437    .text.HAL_NVIC_DisableIRQ:00000000 HAL_NVIC_DisableIRQ
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:505    .text.HAL_NVIC_DisableIRQ:0000001c $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:510    .text.HAL_NVIC_SystemReset:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:516    .text.HAL_NVIC_SystemReset:00000000 HAL_NVIC_SystemReset
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:534    .text.HAL_SYSTICK_Config:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:540    .text.HAL_SYSTICK_Config:00000000 HAL_SYSTICK_Config
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:563    .text.HAL_NVIC_GetPriority:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:569    .text.HAL_NVIC_GetPriority:00000000 HAL_NVIC_GetPriority
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:592    .text.HAL_NVIC_SetPendingIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:598    .text.HAL_NVIC_SetPendingIRQ:00000000 HAL_NVIC_SetPendingIRQ
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:638    .text.HAL_NVIC_SetPendingIRQ:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:643    .text.HAL_NVIC_GetPendingIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:649    .text.HAL_NVIC_GetPendingIRQ:00000000 HAL_NVIC_GetPendingIRQ
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:705    .text.HAL_NVIC_GetPendingIRQ:0000001c $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:710    .text.HAL_NVIC_ClearPendingIRQ:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:716    .text.HAL_NVIC_ClearPendingIRQ:00000000 HAL_NVIC_ClearPendingIRQ
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:756    .text.HAL_NVIC_ClearPendingIRQ:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:761    .text.HAL_SYSTICK_CLKSourceConfig:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:767    .text.HAL_SYSTICK_CLKSourceConfig:00000000 HAL_SYSTICK_CLKSourceConfig
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:805    .text.HAL_SYSTICK_CLKSourceConfig:0000001c $d
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:810    .text.HAL_SYSTICK_Callback:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:816    .text.HAL_SYSTICK_Callback:00000000 HAL_SYSTICK_Callback
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:830    .text.HAL_SYSTICK_IRQHandler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBhCjUS.s:836    .text.HAL_SYSTICK_IRQHandler:00000000 HAL_SYSTICK_IRQHandler
 
 NO UNDEFINED SYMBOLS

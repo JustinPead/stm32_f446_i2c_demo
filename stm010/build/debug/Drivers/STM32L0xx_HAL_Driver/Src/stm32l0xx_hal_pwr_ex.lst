@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c ****   */
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c **** 
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c **** /** @addtogroup PWREx 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 2
 
 
   33:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c ****   * @{
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
   41              		@ sp needed
   42 000a 7047     		bx	lr
   43              	.L3:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 3
 
 
   44              		.align	2
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
   88              	HAL_PWREx_DisableFastWakeUp:
   89              	.LFB42:
   87:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 4
 
 
   88:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c **** /**
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
  128 0002 1168     		ldr	r1, [r2]
  129 0004 8023     		movs	r3, #128
  130 0006 9B00     		lsls	r3, r3, #2
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 5
 
 
  131 0008 0B43     		orrs	r3, r1
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
  177              		.syntax unified
  178              		.code	16
  179              		.thumb_func
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 6
 
 
  181              	HAL_PWREx_EnableLowPowerRunMode:
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
  218              	HAL_PWREx_DisableLowPowerRunMode:
  219              	.LFB46:
  136:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 7
 
 
  137:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c **** /**
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
  254 0022 00E0     		b	.L20
  255              	.L22:
  157:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c ****   {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 8
 
 
  158:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c ****     wait_loop_index--;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
  295 0044 00700040 		.word	1073770496
  296 0048 FFBFFFFF 		.word	-16385
  297 004c 00000000 		.word	SystemCoreClock
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 9
 
 
  298 0050 40420F00 		.word	1000000
@@ -491,32 +491,32 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 1
  306              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l010x4.h"
  307              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
  308              		.file 6 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_pwr_ex.c
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:19     .text.HAL_PWREx_GetVoltageRange:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:25     .text.HAL_PWREx_GetVoltageRange:00000000 HAL_PWREx_GetVoltageRange
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:46     .text.HAL_PWREx_GetVoltageRange:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:51     .text.HAL_PWREx_EnableFastWakeUp:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:57     .text.HAL_PWREx_EnableFastWakeUp:00000000 HAL_PWREx_EnableFastWakeUp
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:77     .text.HAL_PWREx_EnableFastWakeUp:00000010 $d
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:82     .text.HAL_PWREx_DisableFastWakeUp:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:88     .text.HAL_PWREx_DisableFastWakeUp:00000000 HAL_PWREx_DisableFastWakeUp
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:107    .text.HAL_PWREx_DisableFastWakeUp:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:113    .text.HAL_PWREx_EnableUltraLowPower:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:119    .text.HAL_PWREx_EnableUltraLowPower:00000000 HAL_PWREx_EnableUltraLowPower
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:139    .text.HAL_PWREx_EnableUltraLowPower:00000010 $d
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:144    .text.HAL_PWREx_DisableUltraLowPower:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:150    .text.HAL_PWREx_DisableUltraLowPower:00000000 HAL_PWREx_DisableUltraLowPower
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:169    .text.HAL_PWREx_DisableUltraLowPower:0000000c $d
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:175    .text.HAL_PWREx_EnableLowPowerRunMode:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:181    .text.HAL_PWREx_EnableLowPowerRunMode:00000000 HAL_PWREx_EnableLowPowerRunMode
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:206    .text.HAL_PWREx_EnableLowPowerRunMode:00000018 $d
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:212    .text.HAL_PWREx_DisableLowPowerRunMode:00000000 $t
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:218    .text.HAL_PWREx_DisableLowPowerRunMode:00000000 HAL_PWREx_DisableLowPowerRunMode
-C:\Users\justi\AppData\Local\Temp\cc0SlfHH.s:295    .text.HAL_PWREx_DisableLowPowerRunMode:00000044 $d
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:19     .text.HAL_PWREx_GetVoltageRange:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:25     .text.HAL_PWREx_GetVoltageRange:00000000 HAL_PWREx_GetVoltageRange
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:46     .text.HAL_PWREx_GetVoltageRange:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:51     .text.HAL_PWREx_EnableFastWakeUp:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:57     .text.HAL_PWREx_EnableFastWakeUp:00000000 HAL_PWREx_EnableFastWakeUp
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:77     .text.HAL_PWREx_EnableFastWakeUp:00000010 $d
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:82     .text.HAL_PWREx_DisableFastWakeUp:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:88     .text.HAL_PWREx_DisableFastWakeUp:00000000 HAL_PWREx_DisableFastWakeUp
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:107    .text.HAL_PWREx_DisableFastWakeUp:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:113    .text.HAL_PWREx_EnableUltraLowPower:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:119    .text.HAL_PWREx_EnableUltraLowPower:00000000 HAL_PWREx_EnableUltraLowPower
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:139    .text.HAL_PWREx_EnableUltraLowPower:00000010 $d
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:144    .text.HAL_PWREx_DisableUltraLowPower:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:150    .text.HAL_PWREx_DisableUltraLowPower:00000000 HAL_PWREx_DisableUltraLowPower
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:169    .text.HAL_PWREx_DisableUltraLowPower:0000000c $d
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:175    .text.HAL_PWREx_EnableLowPowerRunMode:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:181    .text.HAL_PWREx_EnableLowPowerRunMode:00000000 HAL_PWREx_EnableLowPowerRunMode
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:206    .text.HAL_PWREx_EnableLowPowerRunMode:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:212    .text.HAL_PWREx_DisableLowPowerRunMode:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:218    .text.HAL_PWREx_DisableLowPowerRunMode:00000000 HAL_PWREx_DisableLowPowerRunMode
+C:\Users\justi\AppData\Local\Temp\ccZ9nB3j.s:295    .text.HAL_PWREx_DisableLowPowerRunMode:00000044 $d
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv

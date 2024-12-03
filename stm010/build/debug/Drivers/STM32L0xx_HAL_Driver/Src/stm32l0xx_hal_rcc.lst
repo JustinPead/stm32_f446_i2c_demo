@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       (+) Configure the clock source(s) for peripherals whose clocks are not
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****           derived from the System clock (I2S, RTC, ADC, USB OTG FS/SDIO/RNG)
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****           (*) SDIO only for STM32L0xxxD devices
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 2
 
 
   33:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
   87:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** #define MCO2_GPIO_PORT        GPIOA
   88:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** #define MCO2_PIN              GPIO_PIN_9
   89:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 3
 
 
   90:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** #if defined(RCC_MCO3_SUPPORT)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  144:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       (#) MCO1/MCO2/MCO3 (microcontroller clock output), used to output SYSCLK, HSI, LSI, MSI, LSE,
  145:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****           HSE, HSI48 or PLL clock (through a configurable prescaler) on PA8/PA9/PB13 pins.
  146:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 4
 
 
  147:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     [..] System, AHB and APB buses clocks configuration
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  201:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   |-----------------|---------|--------|-----------------------------|-----------------------|
  202:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   | Range 3 (1.2 V) | 4.2 MHz |   NA   |         8 MHz               |           4 MHz       |
  203:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   |                 |         |        |                             | (PLLVCO max = 24 MHz) |
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 5
 
 
  204:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   +------------------------------------------------------------------------------------------+
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
   51              		.loc 1 233 3 view .LVU6
   52 0014 1968     		ldr	r1, [r3]
   53 0016 8022     		movs	r2, #128
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 6
 
 
   54 0018 5200     		lsls	r2, r2, #1
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  257:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   }
  258:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  259:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   /* Update the SystemCoreClock global variable for MSI as system clock source */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 7
 
 
  260:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   SystemCoreClock = MSI_VALUE;
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  314:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   WRITE_REG(RCC->CICR, vl_mask);
  315:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  316:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   /* Clear all reset flags */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 8
 
 
  317:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   SET_BIT(RCC->CSR, RCC_CSR_RMVF);
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  124              	.L13:
  260:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  125              		.loc 1 260 3 is_stmt 1 view .LVU30
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 9
 
 
  260:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  166              		.loc 1 289 15 view .LVU44
  167 0096 0500     		movs	r5, r0
  168              	.LVL11:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 10
 
 
  292:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  208 00be 1204     		lsls	r2, r2, #16
  209 00c0 0A43     		orrs	r2, r1
  210 00c2 1A65     		str	r2, [r3, #80]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 11
 
 
  319:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** }
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  348:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  349:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   /* Check the parameters */
  350:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   assert_param(IS_RCC_OSCILLATORTYPE(RCC_OscInitStruct->OscillatorType));
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 12
 
 
  351:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  405:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   }
  406:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   /*----------------------------- HSI Configuration --------------------------*/
  407:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   if(((RCC_OscInitStruct->OscillatorType) & RCC_OSCILLATORTYPE_HSI) == RCC_OSCILLATORTYPE_HSI)
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 13
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 13
 
 
  408:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   {
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  462:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         /* Get Start Tick */
  463:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         tickstart = HAL_GetTick();
  464:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 14
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 14
 
 
  465:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         /* Wait till HSI is ready */
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  519:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         /* Update the SystemCoreClock global variable */
  520:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         SystemCoreClock =  (32768U * (1UL << ((RCC_OscInitStruct->MSIClockRange >> RCC_ICSCR_MSIRAN
  521:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****                            >> AHBPrescTable[((RCC->CFGR & RCC_CFGR_HPRE) >> RCC_CFGR_HPRE_Pos)];
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 15
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 15
 
 
  522:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  576:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****           }
  577:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         }
  578:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 16
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 16
 
 
  579:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     }
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  633:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     if(__HAL_RCC_PWR_IS_CLK_DISABLED())
  634:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     {
  635:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       __HAL_RCC_PWR_CLK_ENABLE();
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 17
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 17
 
 
  636:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       pwrclkchanged = SET;
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  690:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     if(pwrclkchanged == SET)
  691:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     {
  692:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       __HAL_RCC_PWR_CLK_DISABLE();
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 18
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 18
 
 
  693:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     }
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  747:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     if(sysclk_source != RCC_SYSCLKSOURCE_STATUS_PLLCLK)
  748:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     {
  749:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       if((RCC_OscInitStruct->PLL.PLLState) == RCC_PLL_ON)
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 19
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 19
 
 
  750:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  804:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****           }
  805:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         }
  806:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 20
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 20
 
 
  807:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     }
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  861:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  862:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   /* Check Null pointer */
  863:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   if(RCC_ClkInitStruct == NULL)
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 21
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 21
 
 
  864:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   {
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  918:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     {
  919:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       /* Check the PLL ready flag */
  920:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       if(__HAL_RCC_GET_FLAG(RCC_FLAG_PLLRDY) == 0U)
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 22
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 22
 
 
  921:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  975:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         }
  976:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       }
  977:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 23
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 23
 
 
  978:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     else
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1032:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   return HAL_OK;
 1033:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** }
 1034:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 24
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 24
 
 
 1035:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** /**
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1089:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   *            @arg @ref RCC_MCO1SOURCE_PLLCLK      PLL clock selected as MCO clock
 1090:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   *            @arg @ref RCC_MCO1SOURCE_LSI         LSI clock selected as MCO clock
 1091:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   *            @arg @ref RCC_MCO1SOURCE_LSE         LSE clock selected as MCO clock
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 25
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 25
 
 
 1092:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   @if STM32L052xx
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  263              	.LVL19:
  264              		.loc 1 1120 20 view .LVU68
  265 0010 FFF7FEFF 		bl	memset
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 26
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 26
 
 
  266              	.LVL20:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  303              		.loc 1 1137 5 view .LVU87
 1138:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     HAL_GPIO_Init(MCO1_GPIO_PORT, &gpio);
  304              		.loc 1 1138 5 view .LVU88
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 27
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 27
 
 
  305 0034 A020     		movs	r0, #160
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  332 0050 8023     		movs	r3, #128
  333 0052 9B00     		lsls	r3, r3, #2
  334 0054 0393     		str	r3, [sp, #12]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 28
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 28
 
 
 1154:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1168:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   * @note   If a failure is detected on the HSE oscillator clock, this oscillator
 1169:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   *         is automatically disabled and an interrupt is generated to inform the
 1170:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   *         software about the failure (Clock Security System Interrupt, CSSI),
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 29
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 29
 
 
 1171:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   *         allowing the MCU to perform rescue operations. The CSSI is linked to
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1215:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
 1216:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   tmpreg = RCC->CFGR;
  389              		.loc 1 1216 3 view .LVU106
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 30
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 30
 
 
  390              		.loc 1 1216 10 is_stmt 0 view .LVU107
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1256:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         }
 1257:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       }
 1258:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       sysclockfreq = pllvco;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 31
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 31
 
 
 1259:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       break;
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1240:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       plld = ((uint32_t)(tmpreg & RCC_CFGR_PLLDIV) >> RCC_CFGR_PLLDIV_Pos) + 1U;
  443              		.loc 1 1240 7 is_stmt 1 view .LVU124
 1240:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       plld = ((uint32_t)(tmpreg & RCC_CFGR_PLLDIV) >> RCC_CFGR_PLLDIV_Pos) + 1U;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 32
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 32
 
 
  444              		.loc 1 1240 63 is_stmt 0 view .LVU125
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  485              		.loc 1 1249 9 is_stmt 1 view .LVU138
 1249:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         {
  486              		.loc 1 1249 17 is_stmt 0 view .LVU139
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 33
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 33
 
 
  487 0064 0D4B     		ldr	r3, .L31
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  530              	.LVL45:
 1269:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** }
  531              		.loc 1 1269 3 is_stmt 1 view .LVU151
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 34
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 34
 
 
 1269:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** }
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  350:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  579              		.loc 1 350 3 is_stmt 1 view .LVU161
  352:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   pll_config = __HAL_RCC_GET_PLL_OSCSOURCE();
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 35
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 35
 
 
  580              		.loc 1 352 3 view .LVU162
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  619 0030 55D0     		beq	.L128
  373:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  620              		.loc 1 373 7 discriminator 2 view .LVU178
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 36
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 36
 
 
  621 0032 A022     		movs	r2, #160
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  662              		.loc 1 382 51 view .LVU191
  382:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         {
  663              		.loc 1 382 15 is_stmt 0 view .LVU192
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 37
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 37
 
 
  664 0064 AE4B     		ldr	r3, .L142
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  704              		.loc 1 407 25 is_stmt 0 view .LVU206
  705 008e 2368     		ldr	r3, [r4]
  407:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 38
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 38
 
 
  706              		.loc 1 407 5 view .LVU207
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  745 00b4 9A49     		ldr	r1, .L142
  746 00b6 0A68     		ldr	r2, [r1]
  747 00b8 0920     		movs	r0, #9
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 39
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 39
 
 
  748 00ba 8243     		bics	r2, r0
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  789 00e4 5B02     		lsls	r3, r3, #9
  790 00e6 0B43     		orrs	r3, r1
  791 00e8 1360     		str	r3, [r2]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 40
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 40
 
 
  792 00ea B5E7     		b	.L39
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  398:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****           {
  833              		.loc 1 398 14 view .LVU249
  834 0118 6428     		cmp	r0, #100
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 41
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 41
 
 
  835 011a F6D9     		bls	.L44
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  445:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  878              		.loc 1 445 25 is_stmt 0 view .LVU261
  879 014c FFF7FEFF 		bl	HAL_RCC_GetSysClockFreq
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 42
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 42
 
 
  880              	.LVL67:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  919              		.loc 1 502 7 is_stmt 1 view .LVU276
  502:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
  920              		.loc 1 502 11 is_stmt 0 view .LVU277
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 43
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 43
 
 
  921 017a 694B     		ldr	r3, .L142
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  521:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  963              		.loc 1 521 50 view .LVU290
  964 01b2 D168     		ldr	r1, [r2, #12]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 44
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 44
 
 
  521:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  591:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  1004              		.loc 1 591 7 is_stmt 1 view .LVU306
  1005 01de 504A     		ldr	r2, .L142
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 45
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 45
 
 
  1006 01e0 136D     		ldr	r3, [r2, #80]
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1048 0214 ACE7     		b	.L46
  1049              	.LVL76:
  1050              	.L51:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 46
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 46
 
 
  480:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  537:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
  1090              		.loc 1 537 27 is_stmt 0 view .LVU334
  1091 023c A369     		ldr	r3, [r4, #24]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 47
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 47
 
 
  537:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1131              		.loc 1 555 9 view .LVU349
  558:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****          /* Adjusts the Multiple Speed oscillator (MSI) calibration value.*/
  1132              		.loc 1 558 9 view .LVU350
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 48
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 48
 
 
  1133 026a 2D4A     		ldr	r2, .L142
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1176              		.loc 1 573 29 view .LVU361
  1177 02a4 801B     		subs	r0, r0, r6
  573:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****           {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 49
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 49
 
 
  1178              		.loc 1 573 13 view .LVU362
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1219              	.LVL93:
  1220              	.L64:
  624:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 50
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 50
 
 
  1221              		.loc 1 624 3 is_stmt 1 view .LVU376
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1261              		.loc 1 657 5 is_stmt 1 view .LVU390
  657:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  1262              		.loc 1 657 5 view .LVU391
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 51
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 51
 
 
  1263 02fa A368     		ldr	r3, [r4, #8]
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1311              		.loc 1 645 7 view .LVU397
  645:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  1312              		.loc 1 645 19 is_stmt 0 view .LVU398
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 52
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 52
 
 
  1313 0358 FFF7FEFF 		bl	HAL_GetTick
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  663:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  1354              		.loc 1 663 19 is_stmt 0 view .LVU412
  1355 0386 FFF7FEFF 		bl	HAL_GetTick
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 53
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 53
 
 
  1356              	.LVL103:
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1398 03bc 1A65     		str	r2, [r3, #80]
  1399 03be DFE7     		b	.L76
  1400              	.L136:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 54
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 54
 
 
  657:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1442 03f2 0320     		movs	r0, #3
  1443 03f4 70E0     		b	.L34
  1444              	.L82:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 55
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 55
 
 
  690:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     {
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  799:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         {
  1484              		.loc 1 799 52 view .LVU453
  799:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 56
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 56
 
 
  1485              		.loc 1 799 15 is_stmt 0 view .LVU454
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1526              		.loc 1 760 9 view .LVU467
  760:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  1527              		.loc 1 760 21 is_stmt 0 view .LVU468
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 57
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 57
 
 
  1528 0446 FFF7FEFF 		bl	HAL_GetTick
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1571 0480 0B60     		str	r3, [r1]
  779:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  1572              		.loc 1 779 9 view .LVU480
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 58
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 58
 
 
  779:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1613 04a8 20D0     		beq	.L113
  818:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         if((READ_BIT(pll_config, RCC_CFGR_PLLSRC) != RCC_OscInitStruct->PLL.PLLSource) ||
  1614              		.loc 1 818 9 is_stmt 1 view .LVU495
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 59
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 59
 
 
  818:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         if((READ_BIT(pll_config, RCC_CFGR_PLLSRC) != RCC_OscInitStruct->PLL.PLLSource) ||
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1656              	.L34:
  829:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  1657              		.loc 1 829 1 view .LVU509
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 60
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 60
 
 
  1658 04d8 03B0     		add	sp, sp, #12
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1704 0504 88130000 		.word	5000
  1705 0508 FFFEFFFF 		.word	-257
  1706 050c FFFBFFFF 		.word	-1025
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 61
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 61
 
 
  1707 0510 FFFFFFFE 		.word	-16777217
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1752              		.loc 1 877 5 view .LVU528
  1753 0014 8B42     		cmp	r3, r1
  1754 0016 19D3     		bcc	.L192
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 62
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 62
 
 
  1755              	.LVL135:
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1793 003e 44D0     		beq	.L195
  938:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
  1794              		.loc 1 938 7 is_stmt 1 view .LVU545
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 63
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 63
 
 
  938:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1835 006a FFF7FEFF 		bl	HAL_GetTick
  1836              	.LVL140:
  888:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 64
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 64
 
 
  1837              		.loc 1 888 26 view .LVU560
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1878              		.loc 1 958 12 is_stmt 0 view .LVU573
  1879 009c 032B     		cmp	r3, #3
  1880 009e 28D0     		beq	.L160
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 65
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 65
 
 
  968:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     {
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  929:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
  1921              		.loc 1 929 7 is_stmt 1 view .LVU588
  929:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****       {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 66
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 66
 
 
  1922              		.loc 1 929 10 is_stmt 0 view .LVU589
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  1963 00fa 0C2B     		cmp	r3, #12
  1964 00fc 15D0     		beq	.L152
  962:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****         {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 67
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 67
 
 
  1965              		.loc 1 962 9 is_stmt 1 view .LVU603
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2005 012a 234B     		ldr	r3, .L198
  2006 012c 1A68     		ldr	r2, [r3]
  2007 012e 0123     		movs	r3, #1
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 68
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 68
 
 
  2008 0130 1340     		ands	r3, r2
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2049              	.LVL152:
 1023:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
  2050              		.loc 1 1023 68 view .LVU631
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 69
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 69
 
 
  2051 0164 154B     		ldr	r3, .L198+4
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2093              	.LVL158:
  999:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     {
  2094              		.loc 1 999 5 is_stmt 1 view .LVU644
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 70
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 70
 
 
  2095              	.L168:
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2138 01cc 00000000 		.word	AHBPrescTable
  2139 01d0 00000000 		.word	SystemCoreClock
  2140 01d4 00000000 		.word	uwTickPrio
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 71
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 71
 
 
  2141              		.cfi_endproc
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1289:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   *         right PCLK1 value. Otherwise, any configuration based on this function will be incorrec
 1290:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   * @retval PCLK1 frequency
 1291:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 72
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 72
 
 
 1292:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** uint32_t HAL_RCC_GetPCLK1Freq(void)
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1304:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** uint32_t HAL_RCC_GetPCLK2Freq(void)
 1305:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** {
  2225              		.loc 1 1305 1 is_stmt 1 view -0
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 73
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 73
 
 
  2226              		.cfi_startproc
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1318:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** {
  2270              		.loc 1 1318 1 is_stmt 1 view -0
  2271              		.cfi_startproc
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 74
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 74
 
 
  2272              		@ args = 0, pretend = 0, frame = 0
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2299 0018 43D5     		bpl	.L213
 1346:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   {
 1347:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****     RCC_OscInitStruct->HSIState = RCC_HSI_ON;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 75
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 75
 
 
  2300              		.loc 1 1347 5 is_stmt 1 view .LVU688
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2334              		.loc 1 1367 3 is_stmt 1 view .LVU703
  2335              		.loc 1 1367 53 is_stmt 0 view .LVU704
  2336 003c 5A68     		ldr	r2, [r3, #4]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 76
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 76
 
 
  2337              		.loc 1 1367 38 view .LVU705
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1392:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
 1393:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** #if defined(RCC_HSI48_SUPPORT)
 1394:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   /* Get the HSI48 configuration if any-----------------------------------------*/
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 77
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 77
 
 
 1395:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   RCC_OscInitStruct->HSI48State = __HAL_RCC_GET_HSI48_STATE();
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2406 0088 0363     		str	r3, [r0, #48]
 1410:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** }
  2407              		.loc 1 1410 1 view .LVU734
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 78
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 78
 
 
  2408              		@ sp needed
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2448 00b2 DB05     		lsls	r3, r3, #23
  2449 00b4 03D5     		bpl	.L219
 1376:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 79
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 79
 
 
  2450              		.loc 1 1376 5 is_stmt 1 view .LVU749
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
 1419:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   */
 1420:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** void HAL_RCC_GetClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t *pFLatency)
 1421:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 80
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 80
 
 
  2491              		.loc 1 1421 1 is_stmt 1 view -0
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2530              		.loc 1 1436 37 view .LVU774
  2531 0020 C260     		str	r2, [r0, #12]
 1437:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 81
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 81
 
 
 1438:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c ****   /* Get the APB2 configuration ----------------------------------------------*/
@@ -4845,43 +4845,43 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 1
  2568              		.file 9 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h"
  2569              		.file 10 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h"
  2570              		.file 11 "<built-in>"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccqADUaK.s 			page 82
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s 			page 82
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_rcc.c
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:19     .text.HAL_RCC_DeInit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:25     .text.HAL_RCC_DeInit:00000000 HAL_RCC_DeInit
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:217    .text.HAL_RCC_DeInit:000000c8 $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:229    .text.HAL_RCC_MCOConfig:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:235    .text.HAL_RCC_MCOConfig:00000000 HAL_RCC_MCOConfig
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:363    .text.HAL_RCC_MCOConfig:00000074 $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:371    .text.HAL_RCC_GetSysClockFreq:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:377    .text.HAL_RCC_GetSysClockFreq:00000000 HAL_RCC_GetSysClockFreq
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:537    .text.HAL_RCC_GetSysClockFreq:0000009c $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:546    .text.HAL_RCC_OscConfig:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:552    .text.HAL_RCC_OscConfig:00000000 HAL_RCC_OscConfig
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:1291   .text.HAL_RCC_OscConfig:00000320 $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:1305   .text.HAL_RCC_OscConfig:0000034c $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:1702   .text.HAL_RCC_OscConfig:000004fc $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:1714   .text.HAL_RCC_ClockConfig:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:1720   .text.HAL_RCC_ClockConfig:00000000 HAL_RCC_ClockConfig
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2133   .text.HAL_RCC_ClockConfig:000001b8 $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2145   .text.HAL_RCC_GetHCLKFreq:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2151   .text.HAL_RCC_GetHCLKFreq:00000000 HAL_RCC_GetHCLKFreq
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2168   .text.HAL_RCC_GetHCLKFreq:00000008 $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2173   .text.HAL_RCC_GetPCLK1Freq:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2179   .text.HAL_RCC_GetPCLK1Freq:00000000 HAL_RCC_GetPCLK1Freq
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2211   .text.HAL_RCC_GetPCLK1Freq:00000018 $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2217   .text.HAL_RCC_GetPCLK2Freq:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2223   .text.HAL_RCC_GetPCLK2Freq:00000000 HAL_RCC_GetPCLK2Freq
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2255   .text.HAL_RCC_GetPCLK2Freq:00000018 $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2261   .text.HAL_RCC_GetOscConfig:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2267   .text.HAL_RCC_GetOscConfig:00000000 HAL_RCC_GetOscConfig
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2477   .text.HAL_RCC_GetOscConfig:000000d0 $d
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2482   .text.HAL_RCC_GetClockConfig:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2488   .text.HAL_RCC_GetClockConfig:00000000 HAL_RCC_GetClockConfig
-C:\Users\justi\AppData\Local\Temp\ccqADUaK.s:2554   .text.HAL_RCC_GetClockConfig:00000038 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:19     .text.HAL_RCC_DeInit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:25     .text.HAL_RCC_DeInit:00000000 HAL_RCC_DeInit
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:217    .text.HAL_RCC_DeInit:000000c8 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:229    .text.HAL_RCC_MCOConfig:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:235    .text.HAL_RCC_MCOConfig:00000000 HAL_RCC_MCOConfig
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:363    .text.HAL_RCC_MCOConfig:00000074 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:371    .text.HAL_RCC_GetSysClockFreq:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:377    .text.HAL_RCC_GetSysClockFreq:00000000 HAL_RCC_GetSysClockFreq
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:537    .text.HAL_RCC_GetSysClockFreq:0000009c $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:546    .text.HAL_RCC_OscConfig:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:552    .text.HAL_RCC_OscConfig:00000000 HAL_RCC_OscConfig
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:1291   .text.HAL_RCC_OscConfig:00000320 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:1305   .text.HAL_RCC_OscConfig:0000034c $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:1702   .text.HAL_RCC_OscConfig:000004fc $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:1714   .text.HAL_RCC_ClockConfig:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:1720   .text.HAL_RCC_ClockConfig:00000000 HAL_RCC_ClockConfig
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2133   .text.HAL_RCC_ClockConfig:000001b8 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2145   .text.HAL_RCC_GetHCLKFreq:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2151   .text.HAL_RCC_GetHCLKFreq:00000000 HAL_RCC_GetHCLKFreq
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2168   .text.HAL_RCC_GetHCLKFreq:00000008 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2173   .text.HAL_RCC_GetPCLK1Freq:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2179   .text.HAL_RCC_GetPCLK1Freq:00000000 HAL_RCC_GetPCLK1Freq
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2211   .text.HAL_RCC_GetPCLK1Freq:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2217   .text.HAL_RCC_GetPCLK2Freq:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2223   .text.HAL_RCC_GetPCLK2Freq:00000000 HAL_RCC_GetPCLK2Freq
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2255   .text.HAL_RCC_GetPCLK2Freq:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2261   .text.HAL_RCC_GetOscConfig:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2267   .text.HAL_RCC_GetOscConfig:00000000 HAL_RCC_GetOscConfig
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2477   .text.HAL_RCC_GetOscConfig:000000d0 $d
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2482   .text.HAL_RCC_GetClockConfig:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2488   .text.HAL_RCC_GetClockConfig:00000000 HAL_RCC_GetClockConfig
+C:\Users\justi\AppData\Local\Temp\ccsCuFEa.s:2554   .text.HAL_RCC_GetClockConfig:00000038 $d
 
 UNDEFINED SYMBOLS
 HAL_GetTick

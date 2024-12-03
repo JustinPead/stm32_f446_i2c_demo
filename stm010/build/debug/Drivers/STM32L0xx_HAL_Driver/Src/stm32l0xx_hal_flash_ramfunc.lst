@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   * @attention
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   *
   33:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   * Copyright (c) 2016 STMicroelectronics.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 2
 
 
   34:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   * All rights reserved.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
   88:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** /* Private functions ---------------------------------------------------------*/
   89:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****  
   90:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** /** @defgroup FLASH_RAMFUNC_Exported_Functions FLASH RAM Exported Functions
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 3
 
 
   91:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****  *
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  145:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** #if defined(FLASH_PECR_PARALLBANK)
  146:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** /**
  147:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   * @brief  Erases a specified 2 pages in program memory in parallel.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 4
 
 
  148:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   * @note   This function can be used only for STM32L07xxx/STM32L08xxx  devices.
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  202:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   *        (BANK2). This parameter should be between FLASH_BANK2_BASE and (FLASH_BANK2_END - FLASH_
  203:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   * @param  pBuffer2: pointer to the buffer containing the data to be  written 
  204:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   *         to the second half page in the second bank.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 5
 
 
  205:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   * @note   To correctly run this function, the @ref HAL_FLASH_Unlock() function
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  259:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****         pBuffer2++;
  260:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****         count ++;  
  261:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****       }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 6
 
 
  262:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  316:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****     
  317:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****     /* Disable all IRQs */
  318:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****     __disable_irq();
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 7
 
 
  319:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** 
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  373:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   */
  374:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** __RAM_FUNC HAL_StatusTypeDef HAL_FLASHEx_GetError(uint32_t * Error)
  375:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** { 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 8
 
 
  376:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   *Error = pFlash.ErrorCode;
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
   52              		.loc 1 403 5 is_stmt 1 view .LVU8
   53              	.LVL1:
   54              		.loc 1 403 11 is_stmt 0 view .LVU9
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 9
 
 
   55 001a 8023     		movs	r3, #128
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
   99 004a D200     		lsls	r2, r2, #3
  100 004c 1343     		orrs	r3, r2
  101              	.LVL4:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 10
 
 
  102              	.L4:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  138 0074 0243     		orrs	r2, r0
  139 0076 4A61     		str	r2, [r1, #20]
  432:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****     flags |= FLASH_FLAG_RDERR;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 11
 
 
  140              		.loc 1 432 5 is_stmt 1 view .LVU40
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  184 00a4 8022     		movs	r2, #128
  185 00a6 5202     		lsls	r2, r2, #9
  186 00a8 1343     		orrs	r3, r2
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 12
 
 
  187              	.LVL8:
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  223              		.loc 1 462 10 is_stmt 0 view .LVU64
  224 00be 00E0     		b	.L18
  225              	.L20:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 13
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 13
 
 
  463:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****     { 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  259              		.loc 1 479 7 is_stmt 0 view .LVU78
  260 00e0 114B     		ldr	r3, .L34
  261 00e2 9B69     		ldr	r3, [r3, #24]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 14
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 14
 
 
  262              		.loc 1 479 5 view .LVU79
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  489:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****     /* WARNING : On the first cut of STM32L031xx and STM32L041xx devices,
  490:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****      *           (RefID = 0x1000) the FLASH_FLAG_OPTVERR bit was not behaving
  491:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****      *           as expected. If the user run an application using the first
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 15
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 15
 
 
  492:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****      *           cut of the STM32L031xx device or the first cut of the STM32L041xx
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  114:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   /* Enable the Power Down in Run mode*/
  340              		.loc 1 114 1 is_stmt 1 view -0
  341              		.cfi_startproc
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 16
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 16
 
 
  342              		@ args = 0, pretend = 0, frame = 0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  388 0150 054B     		ldr	r3, .L40
  389 0152 064A     		ldr	r2, .L40+4
  390 0154 9A60     		str	r2, [r3, #8]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 17
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 17
 
 
  129:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c **** 
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  438              		.loc 1 306 3 view .LVU119
  309:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   
  439              		.loc 1 309 3 view .LVU120
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 18
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 18
 
 
  309:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ramfunc.c ****   
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
   22:Drivers/CMSIS/Include/cmsis_gcc.h ****  * limitations under the License.
   23:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
   24:Drivers/CMSIS/Include/cmsis_gcc.h **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 19
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 19
 
 
   25:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef __CMSIS_GCC_H
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
   79:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic push
   80:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wpacked"
   81:Drivers/CMSIS/Include/cmsis_gcc.h ****   #pragma GCC diagnostic ignored "-Wattributes"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 20
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 20
 
 
   82:Drivers/CMSIS/Include/cmsis_gcc.h ****   __PACKED_STRUCT T_UINT16_WRITE { uint16_t v; };
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  136:Drivers/CMSIS/Include/cmsis_gcc.h ****   \brief   Disable IRQ Interrupts
  137:Drivers/CMSIS/Include/cmsis_gcc.h ****   \details Disables IRQ interrupts by setting the I-bit in the CPSR.
  138:Drivers/CMSIS/Include/cmsis_gcc.h ****            Can only be executed in Privileged modes.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 21
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 21
 
 
  139:Drivers/CMSIS/Include/cmsis_gcc.h ****  */
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  506              	.LBI10:
  129:Drivers/CMSIS/Include/cmsis_gcc.h **** {
  507              		.loc 2 129 27 view .LVU141
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 22
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 22
 
 
  508              	.LBB11:
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  554              		.align	1
  555              		.global	HAL_FLASHEx_GetError
  556              		.syntax unified
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 23
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 23
 
 
  557              		.code	16
@@ -1364,29 +1364,29 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 1
  592              		.file 5 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l010x4.h"
  593              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
  594              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_flash.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s 			page 24
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cctH8GW7.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_flash_ramfunc.c
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:19     .RamFunc:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:24     .RamFunc:00000000 FLASHRAM_SetErrorCode
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:200    .RamFunc:000000b4 $d
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:205    .RamFunc:000000bc $t
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:210    .RamFunc:000000bc FLASHRAM_WaitForLastOperation
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:328    .RamFunc:00000128 $d
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:332    .RamFunc:0000012c $t
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:338    .RamFunc:0000012c HAL_FLASHEx_EnableRunPowerDown
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:367    .RamFunc:00000144 $d
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:373    .RamFunc:00000150 $t
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:379    .RamFunc:00000150 HAL_FLASHEx_DisableRunPowerDown
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:408    .RamFunc:00000168 $d
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:414    .RamFunc:00000174 $t
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:420    .RamFunc:00000174 HAL_FLASHEx_HalfPageProgram
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:548    .RamFunc:000001c4 $d
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:554    .RamFunc:000001d0 $t
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:560    .RamFunc:000001d0 HAL_FLASHEx_GetError
-C:\Users\justi\AppData\Local\Temp\ccY7hjXw.s:584    .RamFunc:000001dc $d
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:19     .RamFunc:00000000 $t
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:24     .RamFunc:00000000 FLASHRAM_SetErrorCode
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:200    .RamFunc:000000b4 $d
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:205    .RamFunc:000000bc $t
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:210    .RamFunc:000000bc FLASHRAM_WaitForLastOperation
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:328    .RamFunc:00000128 $d
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:332    .RamFunc:0000012c $t
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:338    .RamFunc:0000012c HAL_FLASHEx_EnableRunPowerDown
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:367    .RamFunc:00000144 $d
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:373    .RamFunc:00000150 $t
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:379    .RamFunc:00000150 HAL_FLASHEx_DisableRunPowerDown
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:408    .RamFunc:00000168 $d
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:414    .RamFunc:00000174 $t
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:420    .RamFunc:00000174 HAL_FLASHEx_HalfPageProgram
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:548    .RamFunc:000001c4 $d
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:554    .RamFunc:000001d0 $t
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:560    .RamFunc:000001d0 HAL_FLASHEx_GetError
+C:\Users\justi\AppData\Local\Temp\cctH8GW7.s:584    .RamFunc:000001dc $d
 
 UNDEFINED SYMBOLS
 pFlash

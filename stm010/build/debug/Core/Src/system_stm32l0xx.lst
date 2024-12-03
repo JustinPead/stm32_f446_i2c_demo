@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
   30:Core/Src/system_stm32l0xx.c ****   * If no LICENSE file comes with this software, it is provided AS-IS.
   31:Core/Src/system_stm32l0xx.c ****   *
   32:Core/Src/system_stm32l0xx.c ****   ******************************************************************************
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 2
 
 
   33:Core/Src/system_stm32l0xx.c ****   */
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
   87:Core/Src/system_stm32l0xx.c **** /*!< Uncomment the following line if you need to relocate your vector Table
   88:Core/Src/system_stm32l0xx.c ****      in Sram else user remap will be done in Flash. */
   89:Core/Src/system_stm32l0xx.c **** /* #define VECT_TAB_SRAM */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 3
 
 
   90:Core/Src/system_stm32l0xx.c **** #if defined(VECT_TAB_SRAM)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  144:Core/Src/system_stm32l0xx.c **** /** @addtogroup STM32L0xx_System_Private_Functions
  145:Core/Src/system_stm32l0xx.c ****   * @{
  146:Core/Src/system_stm32l0xx.c ****   */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 4
 
 
  147:Core/Src/system_stm32l0xx.c **** 
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  182:Core/Src/system_stm32l0xx.c ****   *           - If SYSCLK source is PLL, SystemCoreClock will contain the HSE_VALUE(**)
  183:Core/Src/system_stm32l0xx.c ****   *             or HSI_VALUE(*) multiplied/divided by the PLL factors.
  184:Core/Src/system_stm32l0xx.c ****   *
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 5
 
 
  185:Core/Src/system_stm32l0xx.c ****   *         (*) HSI_VALUE is a constant defined in stm32l0xx_hal.h file (default value
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  214:Core/Src/system_stm32l0xx.c ****       {
  215:Core/Src/system_stm32l0xx.c ****         SystemCoreClock = HSI_VALUE / 4U;
  216:Core/Src/system_stm32l0xx.c ****       }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 6
 
 
  217:Core/Src/system_stm32l0xx.c ****       else
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  109              		.loc 1 234 7 is_stmt 1 view .LVU23
  110              		.loc 1 234 10 is_stmt 0 view .LVU24
  111 0030 DB03     		lsls	r3, r3, #15
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 7
 
 
  112 0032 43D4     		bmi	.L8
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  154 005e 0133     		adds	r3, r3, #1
  155              	.LVL16:
  210:Core/Src/system_stm32l0xx.c ****       break;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 8
 
 
  156              		.loc 1 210 33 view .LVU39
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  189              	.LVL20:
  190              	.L3:
  213:Core/Src/system_stm32l0xx.c ****       {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 9
 
 
  191              		.loc 1 213 7 is_stmt 1 view .LVU49
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  231              	.LVL28:
  232              	.L9:
  243:Core/Src/system_stm32l0xx.c ****         }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 10
 
 
  233              		.loc 1 243 11 view .LVU64
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  281              		.section	.rodata.PLLMulTable,"a"
  282              		.align	2
  285              	PLLMulTable:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 11
 
 
  286 0000 03040608 		.ascii	"\003\004\006\010\014\020\030 0"
@@ -630,24 +630,24 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 1
  312              		.file 3 "c:\\users\\justi\\appdata\\roaming\\code\\user\\globalstorage\\bmd.stm32-for-vscode\\@xpa
  313              		.file 4 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h"
  314              		.file 5 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l010x4.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32l0xx.c
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:19     .text.SystemInit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:25     .text.SystemInit:00000000 SystemInit
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:40     .text.SystemCoreClockUpdate:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:46     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:270    .text.SystemCoreClockUpdate:000000d4 $d
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:285    .rodata.PLLMulTable:00000000 PLLMulTable
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:307    .data.SystemCoreClock:00000000 SystemCoreClock
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:299    .rodata.AHBPrescTable:00000000 AHBPrescTable
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:282    .rodata.PLLMulTable:00000000 $d
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:292    .rodata.APBPrescTable:00000000 APBPrescTable
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:289    .rodata.APBPrescTable:00000000 $d
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:296    .rodata.AHBPrescTable:00000000 $d
-C:\Users\justi\AppData\Local\Temp\ccbT9OGJ.s:304    .data.SystemCoreClock:00000000 $d
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:19     .text.SystemInit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:25     .text.SystemInit:00000000 SystemInit
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:40     .text.SystemCoreClockUpdate:00000000 $t
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:46     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:270    .text.SystemCoreClockUpdate:000000d4 $d
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:285    .rodata.PLLMulTable:00000000 PLLMulTable
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:307    .data.SystemCoreClock:00000000 SystemCoreClock
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:299    .rodata.AHBPrescTable:00000000 AHBPrescTable
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:282    .rodata.PLLMulTable:00000000 $d
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:292    .rodata.APBPrescTable:00000000 APBPrescTable
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:289    .rodata.APBPrescTable:00000000 $d
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:296    .rodata.AHBPrescTable:00000000 $d
+C:\Users\justi\AppData\Local\Temp\cc9ISZlO.s:304    .data.SystemCoreClock:00000000 $d
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv

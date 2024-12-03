@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****        necessary).
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****    (#) For a given Channel, program the required configuration through the following parameters:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 2
 
 
   33:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****        Channel request, Transfer Direction, Source and Destination data formats,
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
   87:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** /** @addtogroup STM32L0xx_HAL_Driver
   88:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @{
   89:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 3
 
 
   90:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  144:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   /* Check the DMA handle allocation */
  145:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   if(hdma == NULL)
  146:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 4
 
 
  147:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     return HAL_ERROR;
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  201:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   hdma->State  = HAL_DMA_STATE_READY;
  202:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  203:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   /* Allocate lock resource and initialize it */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 5
 
 
  204:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   hdma->Lock = HAL_UNLOCKED;
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  258:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   __HAL_UNLOCK(hdma);
  259:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  260:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   return HAL_OK;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 6
 
 
  261:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** }
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  315:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     DMA_SetConfig(hdma, SrcAddress, DstAddress, DataLength);
  316:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  317:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* Enable the Peripheral */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 7
 
 
  318:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     __HAL_DMA_ENABLE(hdma);
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  372:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  373:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* Enable the Peripheral */
  374:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     __HAL_DMA_ENABLE(hdma);
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 8
 
 
  375:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  429:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @brief  Aborts the DMA Transfer in Interrupt mode.
  430:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @param  hdma pointer to a DMA_HandleTypeDef structure that contains
  431:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   *                 the configuration information for the specified DMA Channel.
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 9
 
 
  432:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @retval HAL status
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  486:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* no transfer ongoing */
  487:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     hdma->ErrorCode = HAL_DMA_ERROR_NO_XFER;
  488:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     __HAL_UNLOCK(hdma);
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 10
 
 
  489:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     return HAL_ERROR;
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  543:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         hdma->State = HAL_DMA_STATE_READY;
  544:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  545:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         /* Process Unlocked */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 11
 
 
  546:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         __HAL_UNLOCK(hdma);
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  600:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****      if(hdma->XferHalfCpltCallback != NULL)
  601:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****       {
  602:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         /* Half transfer callback */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 12
 
 
  603:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****         hdma->XferHalfCpltCallback(hdma);
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  657:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   else
  658:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
  659:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* Nothing To Do */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 13
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 13
 
 
  660:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  714:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   return status;
  715:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** }
  716:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 14
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 14
 
 
  717:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** /**
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  771:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  772:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   return status;
  773:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 15
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 15
 
 
  774:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  828:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** /** @addtogroup DMA_Private_Functions
  829:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   * @{
  830:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 16
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 16
 
 
  831:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
   61 0016 102B     		cmp	r3, #16
   62 0018 04D0     		beq	.L4
  851:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 17
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 17
 
 
  852:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     /* Configure DMA Channel destination address */
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
   96              		.section	.text.HAL_DMA_Init,"ax",%progbits
   97              		.align	1
   98              		.global	HAL_DMA_Init
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 18
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 18
 
 
   99              		.syntax unified
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  137              	.LVL6:
  163:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   hdma->DmaBaseAddress = DMA1;
  138              		.loc 1 163 78 view .LVU44
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 19
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 19
 
 
  139 000c 1421     		movs	r1, #20
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  176 0030 6169     		ldr	r1, [r4, #20]
  179:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****           hdma->Init.PeriphDataAlignment | hdma->Init.MemDataAlignment |
  177              		.loc 1 179 72 view .LVU62
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 20
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 20
 
 
  178 0032 0B43     		orrs	r3, r1
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  215 0054 1C22     		movs	r2, #28
  216 0056 1540     		ands	r5, r2
  191:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 21
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 21
 
 
  217              		.loc 1 191 42 view .LVU80
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  255              	.LVL13:
  256              	.L6:
  207:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 22
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 22
 
 
  257              		.loc 1 207 1 view .LVU97
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  228:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  305              		.loc 1 228 3 view .LVU106
  306 0006 0268     		ldr	r2, [r0]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 23
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 23
 
 
  307 0008 1368     		ldr	r3, [r2]
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  345 0032 4560     		str	r5, [r0, #4]
  243:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  346              		.loc 1 243 3 is_stmt 1 view .LVU123
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 24
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 24
 
 
  243:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  382 0054 A354     		strb	r3, [r4, r2]
  258:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  383              		.loc 1 258 3 view .LVU143
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 25
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 25
 
 
  260:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** }
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  431              		.loc 1 297 3 is_stmt 1 view .LVU152
  432              	.LVL24:
  300:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 26
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 26
 
 
  433              		.loc 1 300 3 view .LVU153
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  471              		@ sp needed
  472              	.LVL30:
  327:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 27
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 27
 
 
  473              		.loc 1 327 1 view .LVU170
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  520              	.LVL34:
  521              	.LFB43:
  339:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 28
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 28
 
 
  522              		.loc 1 339 1 is_stmt 1 view -0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  562 001c 0022     		movs	r2, #0
  563              	.LVL38:
  379:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 29
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 29
 
 
  564              		.loc 1 379 5 view .LVU195
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  604 0042 0BD0     		beq	.L24
  365:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     }
  605              		.loc 1 365 7 is_stmt 1 view .LVU210
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 30
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 30
 
 
  606 0044 2268     		ldr	r2, [r4]
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  656              		@ frame_needed = 0, uses_anonymous_args = 0
  394:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   HAL_StatusTypeDef status = HAL_OK;
  657              		.loc 1 394 1 is_stmt 0 view .LVU217
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 31
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 31
 
 
  658 0000 10B5     		push	{r4, lr}
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  698 0022 0168     		ldr	r1, [r0]
  699 0024 0A68     		ldr	r2, [r1]
  700 0026 0123     		movs	r3, #1
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 32
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 32
 
 
  701 0028 9A43     		bics	r2, r3
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  743              	.LVL50:
  744              	.LFB45:
  435:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   HAL_StatusTypeDef status = HAL_OK;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 33
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 33
 
 
  745              		.loc 1 435 1 is_stmt 1 view -0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  786 001c 0168     		ldr	r1, [r0]
  787 001e 0A68     		ldr	r2, [r1]
  788 0020 0123     		movs	r3, #1
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 34
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 34
 
 
  789 0022 9A43     		bics	r2, r3
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  827              	.L34:
  436:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  828              		.loc 1 436 21 view .LVU276
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 35
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 35
 
 
  829 004a 0020     		movs	r0, #0
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  875 0014 C363     		str	r3, [r0, #60]
  488:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     return HAL_ERROR;
  876              		.loc 1 488 5 is_stmt 1 view .LVU287
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 36
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 36
 
 
  488:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     return HAL_ERROR;
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  915 0030 1C23     		movs	r3, #28
  916 0032 1340     		ands	r3, r2
  503:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 37
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 37
 
 
  917              		.loc 1 503 10 view .LVU304
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  955 0056 7B1C     		adds	r3, r7, #1
  956 0058 F1D0     		beq	.L43
  537:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****       {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 38
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 38
 
 
  957              		.loc 1 537 7 is_stmt 1 view .LVU321
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  996 0082 C363     		str	r3, [r0, #60]
  496:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
  997              		.loc 1 496 5 is_stmt 1 view .LVU337
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 39
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 39
 
 
  496:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1036 00a2 013B     		subs	r3, r3, #1
  1037 00a4 0022     		movs	r2, #0
  1038 00a6 F254     		strb	r2, [r6, r3]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 40
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 40
 
 
  530:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1076              	.L46:
  565:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
  1077              		.loc 1 565 5 is_stmt 1 view .LVU371
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 41
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 41
 
 
  565:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   }
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1122              		.loc 1 583 12 view .LVU383
  1123 0008 2568     		ldr	r5, [r4]
  1124              	.LVL77:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 42
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 42
 
 
  586:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  595:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1164              		.loc 1 595 34 view .LVU399
  1165 0036 4B60     		str	r3, [r1, #4]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 43
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 43
 
 
  600:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****       {
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1205 005e 093A     		subs	r2, r2, #9
  1206 0060 C254     		strb	r2, [r0, r3]
  1207              	.L57:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 44
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 44
 
 
  619:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1245              		.loc 1 632 11 view .LVU431
  1246 0084 1142     		tst	r1, r2
  1247 0086 DBD0     		beq	.L52
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 45
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 45
 
 
  632:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  651:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     {
  1286              		.loc 1 651 13 is_stmt 0 view .LVU448
  1287 00b0 436B     		ldr	r3, [r0, #52]
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 46
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 46
 
 
  651:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****     {
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1333 0010 1C54     		strb	r4, [r3, r0]
  679:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1334              		.loc 1 679 3 discriminator 2 view .LVU460
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 47
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 47
 
 
  681:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****   {
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1375 0034 1A63     		str	r2, [r3, #48]
  691:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1376              		.loc 1 691 12 is_stmt 1 view .LVU475
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 48
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 48
 
 
  676:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1412              		.loc 1 679 3 view .LVU494
  1413 0050 0220     		movs	r0, #2
  1414 0052 E7E7     		b	.L64
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 49
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 49
 
 
  1415              		.cfi_endproc
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1459 001a 0120     		movs	r0, #1
  1460              	.L76:
  1461              	.LVL98:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 50
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 50
 
 
  770:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1504              	.L81:
  741:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****            break;
  1505              		.loc 1 741 12 is_stmt 1 view .LVU519
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 51
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 51
 
 
  741:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****            break;
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  755:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****            hdma->XferAbortCallback = NULL;
  1542              		.loc 1 755 12 is_stmt 1 view .LVU538
  755:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c ****            hdma->XferAbortCallback = NULL;
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 52
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 52
 
 
  1543              		.loc 1 755 36 is_stmt 0 view .LVU539
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1588 0004 C0B2     		uxtb	r0, r0
  807:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c **** 
  1589              		.loc 1 807 1 view .LVU551
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 53
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 53
 
 
  1590              		@ sp needed
@@ -3160,41 +3160,41 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 1
  1625              		.file 5 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
  1626              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_dma.h"
  1627              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s 			page 54
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s 			page 54
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_dma.c
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:19     .text.DMA_SetConfig:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:24     .text.DMA_SetConfig:00000000 DMA_SetConfig
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:97     .text.HAL_DMA_Init:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:103    .text.HAL_DMA_Init:00000000 HAL_DMA_Init
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:272    .text.HAL_DMA_Init:00000088 $d
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:280    .text.HAL_DMA_DeInit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:286    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:403    .text.HAL_DMA_DeInit:00000060 $d
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:410    .text.HAL_DMA_Start:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:416    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:513    .text.HAL_DMA_Start_IT:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:519    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:644    .text.HAL_DMA_Abort:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:650    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:736    .text.HAL_DMA_Abort_IT:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:742    .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:837    .text.HAL_DMA_PollForTransfer:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:843    .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1093   .text.HAL_DMA_IRQHandler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1099   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1301   .text.HAL_DMA_RegisterCallback:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1307   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1419   .text.HAL_DMA_UnRegisterCallback:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1425   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1486   .rodata.HAL_DMA_UnRegisterCallback:00000000 $d
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1563   .text.HAL_DMA_UnRegisterCallback:00000064 $d
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1568   .text.HAL_DMA_GetState:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1574   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1596   .text.HAL_DMA_GetError:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccZIQHJY.s:1602   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:19     .text.DMA_SetConfig:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:24     .text.DMA_SetConfig:00000000 DMA_SetConfig
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:97     .text.HAL_DMA_Init:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:103    .text.HAL_DMA_Init:00000000 HAL_DMA_Init
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:272    .text.HAL_DMA_Init:00000088 $d
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:280    .text.HAL_DMA_DeInit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:286    .text.HAL_DMA_DeInit:00000000 HAL_DMA_DeInit
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:403    .text.HAL_DMA_DeInit:00000060 $d
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:410    .text.HAL_DMA_Start:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:416    .text.HAL_DMA_Start:00000000 HAL_DMA_Start
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:513    .text.HAL_DMA_Start_IT:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:519    .text.HAL_DMA_Start_IT:00000000 HAL_DMA_Start_IT
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:644    .text.HAL_DMA_Abort:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:650    .text.HAL_DMA_Abort:00000000 HAL_DMA_Abort
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:736    .text.HAL_DMA_Abort_IT:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:742    .text.HAL_DMA_Abort_IT:00000000 HAL_DMA_Abort_IT
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:837    .text.HAL_DMA_PollForTransfer:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:843    .text.HAL_DMA_PollForTransfer:00000000 HAL_DMA_PollForTransfer
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1093   .text.HAL_DMA_IRQHandler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1099   .text.HAL_DMA_IRQHandler:00000000 HAL_DMA_IRQHandler
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1301   .text.HAL_DMA_RegisterCallback:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1307   .text.HAL_DMA_RegisterCallback:00000000 HAL_DMA_RegisterCallback
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1419   .text.HAL_DMA_UnRegisterCallback:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1425   .text.HAL_DMA_UnRegisterCallback:00000000 HAL_DMA_UnRegisterCallback
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1486   .rodata.HAL_DMA_UnRegisterCallback:00000000 $d
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1563   .text.HAL_DMA_UnRegisterCallback:00000064 $d
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1568   .text.HAL_DMA_GetState:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1574   .text.HAL_DMA_GetState:00000000 HAL_DMA_GetState
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1596   .text.HAL_DMA_GetError:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccjGUhoV.s:1602   .text.HAL_DMA_GetError:00000000 HAL_DMA_GetError
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv

@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
   29:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****         (++) Input mode
   30:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****         (++) Analog mode
   31:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****         (++) Output mode
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 2
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 2
 
 
   32:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****         (++) Alternate function mode
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
   86:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
   87:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****     (#) To get the level of a pin configured in input mode use HAL_GPIO_ReadPin().
   88:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 3
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 3
 
 
   89:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****     (#) To set/reset the level of a pin configured in output mode use
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  143:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
  144:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** @endverbatim
  145:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   * @{
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 4
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 4
 
 
  146:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   */
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  174:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****       /*--------------------- GPIO Mode Configuration ------------------------*/
  175:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****       /* In case of Output or Alternate function mode selection */
  176:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****       if (((GPIO_Init->Mode & GPIO_MODE) == MODE_OUTPUT) ||
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 5
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 5
 
 
  177:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****           ((GPIO_Init->Mode & GPIO_MODE) == MODE_AF))
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
   93              		.loc 1 190 71 view .LVU30
   94 0024 9A40     		lsls	r2, r2, r3
   95              		.loc 1 190 14 view .LVU31
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 6
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 6
 
 
   96 0026 2243     		orrs	r2, r4
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  125              	.LVL11:
  216:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****         temp |= ((uint32_t)(GPIO_Init->Alternate) << (((uint32_t)position & (uint32_t)0x07U) * 4U))
  126              		.loc 1 216 9 is_stmt 1 view .LVU44
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 7
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 7
 
 
  127              		.loc 1 216 38 is_stmt 0 view .LVU45
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  158              		.loc 1 239 9 is_stmt 1 discriminator 12 view .LVU54
  159              		.loc 1 239 14 is_stmt 0 discriminator 12 view .LVU55
  160 0060 3F4A     		ldr	r2, .L24+4
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 8
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 8
 
 
  161 0062 9768     		ldr	r7, [r2, #8]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  203              		.loc 1 251 11 is_stmt 1 view .LVU74
  204              		.loc 1 251 16 is_stmt 0 view .LVU75
  205 0084 3E00     		movs	r6, r7
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 9
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 9
 
 
  206              	.LVL21:
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  246              		.loc 1 265 9 is_stmt 1 view .LVU93
  247              		.loc 1 265 14 is_stmt 0 view .LVU94
  248 00a2 3240     		ands	r2, r6
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 10
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 10
 
 
  249              	.LVL28:
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  288 00c0 2500     		movs	r5, r4
  289 00c2 1540     		ands	r5, r2
  290              	.LVL33:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 11
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 11
 
 
  172:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****     {
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  327              		.loc 1 201 14 view .LVU129
  328 00e6 9443     		bics	r4, r2
  329              	.LVL35:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 12
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 12
 
 
  202:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****         GPIOx->PUPDR = temp;
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  367              		.loc 1 223 7 is_stmt 1 view .LVU146
  223:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****       GPIOx->MODER = temp;
  368              		.loc 1 223 26 is_stmt 0 view .LVU147
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 13
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 13
 
 
  369 0106 4F68     		ldr	r7, [r1, #4]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  408 012e 0324     		movs	r4, #3
  409 0130 1C40     		ands	r4, r3
  410 0132 A400     		lsls	r4, r4, #2
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 14
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 14
 
 
  411 0134 0F26     		movs	r6, #15
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  461              	.LFB41:
  276:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
  277:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** /**
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 15
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 15
 
 
  278:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   * @brief  De-initializes the GPIOx peripheral registers to their default reset values.
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  300:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
  301:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****     if (iocurrent)
  302:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****     {
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 16
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 16
 
 
  303:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****       /*------------------------- EXTI Mode Configuration --------------------*/
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  522 002c DC08     		lsrs	r4, r3, #3
  523 002e 0834     		adds	r4, r4, #8
  524 0030 A400     		lsls	r4, r4, #2
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 17
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 17
 
 
  525 0032 2758     		ldr	r7, [r4, r0]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  565              		.loc 1 296 33 view .LVU204
  566 005a 37D0     		beq	.L36
  299:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 18
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 18
 
 
  567              		.loc 1 299 5 is_stmt 1 view .LVU205
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  606              		.loc 1 308 19 is_stmt 0 view .LVU220
  607 0082 A021     		movs	r1, #160
  608              	.LVL56:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 19
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 19
 
 
  308:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****       {
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  650 00b6 E560     		str	r5, [r4, #12]
  316:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
  651              		.loc 1 316 9 is_stmt 1 view .LVU234
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 20
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 20
 
 
  316:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  342:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** /**
  343:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   * @}
  344:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 21
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 21
 
 
  345:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  382:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   return bitstatus;
  716              		.loc 1 382 3 is_stmt 1 view .LVU250
  383:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** }
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 22
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 22
 
 
  717              		.loc 1 383 1 is_stmt 0 view .LVU251
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  408:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
  409:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   if (PinState != GPIO_PIN_RESET)
  747              		.loc 1 409 3 view .LVU257
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 23
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 23
 
 
  748              		.loc 1 409 6 is_stmt 0 view .LVU258
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  782              		.loc 1 429 3 view .LVU266
  430:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** 
  431:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   /* Check the parameters */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 24
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 24
 
 
  432:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   assert_param(IS_GPIO_PIN_AVAILABLE(GPIOx, GPIO_Pin));
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  454:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
  455:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** {
  817              		.loc 1 455 1 is_stmt 1 view -0
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 25
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 25
 
 
  818              		.cfi_startproc
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  854 001c C369     		ldr	r3, [r0, #28]
  855              		.loc 1 473 6 view .LVU295
  856 001e 1342     		tst	r3, r2
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 26
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 26
 
 
  857 0020 02D0     		beq	.L49
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  499:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   * @param  GPIO_Pin Specifies the pins connected to the EXTI line.
  500:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   * @retval None
  501:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c ****   */
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 27
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 27
 
 
  502:Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c **** __weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  927              		@ sp needed
  928 000a 10BD     		pop	{r4, pc}
  929              	.LVL76:
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 28
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 28
 
 
  930              	.L53:
@@ -1647,29 +1647,29 @@ ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 1
  951              		.file 5 "Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h"
  952              		.file 6 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h"
  953              		.file 7 "Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h"
-ARM GAS  C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s 			page 29
+ARM GAS  C:\Users\justi\AppData\Local\Temp\ccBtkQya.s 			page 29
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32l0xx_hal_gpio.c
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:19     .text.HAL_GPIO_Init:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:25     .text.HAL_GPIO_Init:00000000 HAL_GPIO_Init
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:444    .text.HAL_GPIO_Init:0000015c $d
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:453    .text.HAL_GPIO_DeInit:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:459    .text.HAL_GPIO_DeInit:00000000 HAL_GPIO_DeInit
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:682    .text.HAL_GPIO_DeInit:000000d4 $d
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:690    .text.HAL_GPIO_ReadPin:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:696    .text.HAL_GPIO_ReadPin:00000000 HAL_GPIO_ReadPin
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:731    .text.HAL_GPIO_WritePin:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:737    .text.HAL_GPIO_WritePin:00000000 HAL_GPIO_WritePin
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:768    .text.HAL_GPIO_TogglePin:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:774    .text.HAL_GPIO_TogglePin:00000000 HAL_GPIO_TogglePin
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:808    .text.HAL_GPIO_LockPin:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:814    .text.HAL_GPIO_LockPin:00000000 HAL_GPIO_LockPin
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:877    .text.HAL_GPIO_EXTI_Callback:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:883    .text.HAL_GPIO_EXTI_Callback:00000000 HAL_GPIO_EXTI_Callback
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:899    .text.HAL_GPIO_EXTI_IRQHandler:00000000 $t
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:905    .text.HAL_GPIO_EXTI_IRQHandler:00000000 HAL_GPIO_EXTI_IRQHandler
-C:\Users\justi\AppData\Local\Temp\ccUhX6cz.s:942    .text.HAL_GPIO_EXTI_IRQHandler:00000018 $d
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:19     .text.HAL_GPIO_Init:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:25     .text.HAL_GPIO_Init:00000000 HAL_GPIO_Init
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:444    .text.HAL_GPIO_Init:0000015c $d
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:453    .text.HAL_GPIO_DeInit:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:459    .text.HAL_GPIO_DeInit:00000000 HAL_GPIO_DeInit
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:682    .text.HAL_GPIO_DeInit:000000d4 $d
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:690    .text.HAL_GPIO_ReadPin:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:696    .text.HAL_GPIO_ReadPin:00000000 HAL_GPIO_ReadPin
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:731    .text.HAL_GPIO_WritePin:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:737    .text.HAL_GPIO_WritePin:00000000 HAL_GPIO_WritePin
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:768    .text.HAL_GPIO_TogglePin:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:774    .text.HAL_GPIO_TogglePin:00000000 HAL_GPIO_TogglePin
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:808    .text.HAL_GPIO_LockPin:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:814    .text.HAL_GPIO_LockPin:00000000 HAL_GPIO_LockPin
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:877    .text.HAL_GPIO_EXTI_Callback:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:883    .text.HAL_GPIO_EXTI_Callback:00000000 HAL_GPIO_EXTI_Callback
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:899    .text.HAL_GPIO_EXTI_IRQHandler:00000000 $t
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:905    .text.HAL_GPIO_EXTI_IRQHandler:00000000 HAL_GPIO_EXTI_IRQHandler
+C:\Users\justi\AppData\Local\Temp\ccBtkQya.s:942    .text.HAL_GPIO_EXTI_IRQHandler:00000018 $d
 
 NO UNDEFINED SYMBOLS
